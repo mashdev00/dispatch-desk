@@ -1,8 +1,7 @@
+import PageHeader from '@/components/layout/PageHeader';
+
+export const metadata = { title: 'Trips' };
+
 export default function TripsPage() {
-  return (
-    <main>
-      <h1>Trips</h1>
-      <p>Coming soon.</p>
-    </main>
-  );
+  return <PageHeader title="Trips" description="Table coming in session 6." />;
 }
