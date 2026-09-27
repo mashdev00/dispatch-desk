@@ -1,0 +1,135 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.title {
+  font-size: var(--text-xl);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stop {
+  position: relative;
+}
+
+/* The line joining the markers: drawn under each stop's marker down to the next stop. */
+.stop:not(:last-child) .row::before {
+  content: '';
+  position: absolute;
+  top: 26px;
+  bottom: 2px;
+  left: 11px;
+  border-left: 2px solid var(--color-border);
+}
+
+.done:not(:last-child) .row::before {
+  border-left-color: var(--color-brand);
+}
+
+.row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  padding-bottom: var(--space-5);
+}
+
+.stop:last-child .row {
+  padding-bottom: 0;
+}
+
+.marker {
+  position: relative;
+  align-self: start;
+  display: inline-flex;
+  padding-top: 1px;
+  background: var(--color-surface);
+  color: var(--color-text-subtle);
+}
+
+.done .marker { color: var(--color-brand); }
+.current .marker { color: var(--tone-active-fg); }
+.problem .marker { color: var(--tone-critical-fg); }
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-2);
+}
+
+.stopTitle {
+  font-size: var(--text-md);
+}
+
+.site {
+  color: var(--color-text-muted);
+}
+
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-3);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-muted);
+}
+
+.reschedule {
+  align-self: start;
+}
+
+.position {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: calc(var(--space-2) * -1) 0 var(--space-4) calc(24px + var(--space-3));
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--tone-active-bg);
+  color: var(--tone-active-fg);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+}
+
+.position::before {
+  content: '';
+  position: absolute;
+  top: calc(var(--space-2) * -1);
+  bottom: calc(var(--space-4) * -1);
+  left: calc(-24px - var(--space-3) + 11px);
+  border-left: 2px dashed var(--tone-active-fg);
+}
+
+@media (max-width: 639px) {
+  .panel {
+    padding: var(--space-4);
+  }
+
+  .row {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .reschedule {
+    grid-column: 2;
+    justify-self: start;
+  }
+}

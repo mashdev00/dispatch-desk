@@ -1,0 +1,84 @@
+.figure {
+  margin: 0;
+}
+
+.chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.band {
+  fill: var(--tone-success-bg);
+  stroke: var(--tone-success-border);
+  stroke-dasharray: 4 3;
+}
+
+.axis {
+  stroke: var(--color-border-strong);
+  stroke-width: 1;
+}
+
+.label {
+  fill: var(--color-text-muted);
+  font-size: var(--text-xs);
+  font-variant-numeric: tabular-nums;
+}
+
+.line {
+  fill: none;
+  stroke: var(--tone-info-fg);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.point {
+  fill: var(--tone-info-fg);
+}
+
+.pointOut {
+  fill: var(--color-danger);
+  stroke: var(--color-surface);
+  stroke-width: 1;
+}
+
+.caption,
+.captionAlert {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.captionAlert {
+  color: var(--tone-critical-fg);
+  font-weight: var(--weight-medium);
+}
+
+.tableToggle {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+}
+
+.tableToggle summary {
+  color: var(--color-brand);
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  margin-top: var(--space-2);
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.table th,
+.table td {
+  padding: var(--space-1) var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.table th {
+  color: var(--color-text-muted);
+  font-weight: var(--weight-semibold);
+}

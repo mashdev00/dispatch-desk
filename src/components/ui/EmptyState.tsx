@@ -7,9 +7,11 @@ type EmptyStateProps = {
   description?: string;
   action?: React.ReactNode;
   className?: string;
+  /** Use 'h1' when the empty state is the whole page, e.g. "Trip not found". */
+  titleAs?: 'p' | 'h1' | 'h2';
 };
 
-export default function EmptyState({ icon, title, description, action, className }: EmptyStateProps) {
+export default function EmptyState({ icon, title, description, action, className, titleAs: Title = 'p' }: EmptyStateProps) {
   return (
     <div className={cx(styles.empty, className)}>
       {icon && (
@@ -17,7 +19,7 @@ export default function EmptyState({ icon, title, description, action, className
           {icon}
         </span>
       )}
-      <p className={styles.title}>{title}</p>
+      <Title className={styles.title}>{title}</Title>
       {description && <p className={styles.description}>{description}</p>}
       {action && <div className={styles.action}>{action}</div>}
     </div>
