@@ -40,14 +40,6 @@
   gap: var(--space-4);
 }
 
-.placeholder {
-  padding: var(--space-8);
-  background: var(--color-surface);
-  border: 1px dashed var(--color-border-strong);
-  border-radius: var(--radius-lg);
-  color: var(--color-text-muted);
-}
-
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -87,4 +79,22 @@
     flex-direction: column-reverse;
     align-items: stretch;
   }
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.scrollOptions {
+  max-height: 360px;
+  overflow-y: auto;
+  padding: var(--space-1);
+}
+
+.inlineButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
 }

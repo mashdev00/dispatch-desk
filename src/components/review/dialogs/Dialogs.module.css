@@ -22,40 +22,6 @@
   padding: var(--space-1);
 }
 
-.unavailable {
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-}
-
-.unavailable summary {
-  padding: var(--space-2) var(--space-3);
-  font-size: var(--text-sm);
-  font-weight: var(--weight-medium);
-  color: var(--color-text-muted);
-  cursor: pointer;
-}
-
-.unavailableList {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-  max-height: 240px;
-  overflow-y: auto;
-  margin: 0;
-  padding: var(--space-2) var(--space-3) var(--space-3);
-  list-style: none;
-  font-size: var(--text-sm);
-}
-
-.unavailableName {
-  color: var(--color-text-muted);
-  font-weight: var(--weight-medium);
-}
-
-.reasons {
-  color: var(--tone-warning-fg);
-}
-
 .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));

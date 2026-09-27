@@ -15,6 +15,8 @@ import Stepper from '@/components/ui/Stepper';
 import { useToast } from '@/components/ui/Toast';
 import { fieldId } from '@/components/ui/fieldId';
 import StepCargo from './StepCargo';
+import StepAssign from './StepAssign';
+import StepReview from './StepReview';
 import StepRoute from './StepRoute';
 import styles from './WizardForm.module.css';
 
@@ -72,7 +74,21 @@ export default function WizardForm({ initialDraft }: { initialDraft: TripDraft |
       setShowErrors(true);
       return;
     }
-    if (step < LAST_STEP) goTo((step + 1) as WizardStep);
+    if (step < LAST_STEP) {
+      goTo((step + 1) as WizardStep);
+      return;
+    }
+    const result = actions.submitTrip(form, draftId);
+    if (result.ok) {
+      toast(`Trip ${result.tripId} created`);
+      router.push('/trips/' + result.tripId);
+      return;
+    }
+    // Go to the first step with problems and show them there.
+    const firstStep = Math.min(...result.issues.map((i) => i.step)) as WizardStep;
+    setStep(firstStep);
+    setIssues(result.issues.filter((i) => i.step === firstStep));
+    setShowErrors(true);
   }
 
   function update(nextForm: TripForm) {
@@ -94,7 +110,6 @@ export default function WizardForm({ initialDraft }: { initialDraft: TripDraft |
   }
 
   const stepIssues = showErrors ? issues : [];
-  const StepComponent = step === 1 ? StepCargo : step === 2 ? StepRoute : null;
 
   return (
     <div className={styles.wizard}>
@@ -120,11 +135,12 @@ export default function WizardForm({ initialDraft }: { initialDraft: TripDraft |
       >
         <ErrorSummary issues={stepIssues} fieldId={fieldId} />
         <h2 className={styles.stepTitle}>{WIZARD_STEPS[step - 1].label}</h2>
-        {StepComponent ? (
-          <StepComponent form={form} onChange={update} issues={issues} showErrors={showErrors} />
-        ) : (
-          <p className={styles.placeholder}>This step is coming in the next session.</p>
+        {step === 1 && <StepCargo form={form} onChange={update} issues={issues} showErrors={showErrors} />}
+        {step === 2 && <StepRoute form={form} onChange={update} issues={issues} showErrors={showErrors} />}
+        {step === 3 && (
+          <StepAssign form={form} onChange={update} issues={issues} showErrors={showErrors} onGoToStep={goTo} />
         )}
+        {step === 4 && <StepReview form={form} onGoToStep={goTo} />}
         <div className={styles.footer}>
           <div className={styles.footerStart}>
             {step > 1 && <Button onClick={() => goTo((step - 1) as WizardStep)}>Back</Button>}

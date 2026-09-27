@@ -12,29 +12,11 @@ import ErrorSummary from '@/components/ui/ErrorSummary';
 import RadioGroup from '@/components/ui/RadioGroup';
 import TextareaField from '@/components/ui/TextareaField';
 import { fieldId, issueFor } from '@/components/ui/fieldId';
+import UnavailableOptions from '@/components/assign/UnavailableOptions';
 import { issue, type DialogProps } from './dialogForm';
 import styles from './Dialogs.module.css';
 
 type Props = DialogProps & { trip: Trip };
-
-/** D9: unavailable options stay visible in their own collapsed group, each with its reasons. */
-function Unavailable({ items }: { items: { id: string; name: string; reasons: string[] }[] }) {
-  if (items.length === 0) return null;
-  return (
-    <details className={styles.unavailable}>
-      <summary>Not available ({items.length})</summary>
-      <ul className={styles.unavailableList}>
-        {items.map((item) => (
-          <li key={item.id}>
-            <span className={styles.unavailableName}>{item.name}</span>
-            <br />
-            <span className={styles.reasons}>{item.reasons.join('. ')}</span>
-          </li>
-        ))}
-      </ul>
-    </details>
-  );
-}
 
 export default function AssignDialog({ open, onClose, onDone, trip }: Props) {
   const trips = useTrips();
@@ -126,7 +108,7 @@ export default function AssignDialog({ open, onClose, onDone, trip }: Props) {
               error={issueFor(issues, 'vehicleId')}
             />
           </div>
-          <Unavailable
+          <UnavailableOptions
             items={badVehicles.map(({ vehicle, reasons }) => ({
               id: vehicle.id,
               name: `${vehicle.code} · ${VEHICLE_TYPES[vehicle.type].label}${vehicle.id === trip.vehicleId ? ' (current)' : ''}`,
@@ -153,7 +135,7 @@ export default function AssignDialog({ open, onClose, onDone, trip }: Props) {
               error={issueFor(issues, 'driverId')}
             />
           </div>
-          <Unavailable
+          <UnavailableOptions
             items={badDrivers.map(({ driver, reasons }) => ({
               id: driver.id,
               name: `${driver.name}${driver.id === trip.driverId ? ' (current)' : ''}`,
