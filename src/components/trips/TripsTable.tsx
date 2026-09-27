@@ -40,7 +40,7 @@ export default function TripsTable({ rows, loading, directionFor, onSort, onRese
 
   return (
     <>
-      <div className={cx(tableStyles.container, styles.tableView)}>
+      <div className={cx(tableStyles.container, styles.tableView)} tabIndex={0} role="region" aria-label="Trips table">
         <table className={tableStyles.table}>
           <caption className="visually-hidden">Trips</caption>
           <thead>

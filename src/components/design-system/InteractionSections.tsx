@@ -163,7 +163,7 @@ export function TableSection() {
       description="Sticky header, 48px rows, no zebra stripes. Sortable headers cycle ascending, descending, then back to the default order."
     >
       <Sample label="Sortable" wide>
-        <div className={tableStyles.container}>
+        <div className={tableStyles.container} tabIndex={0} role="region" aria-label="Sample trips table">
           <table className={tableStyles.table}>
             <caption className="visually-hidden">Sample trips</caption>
             <thead>
@@ -202,7 +202,7 @@ export function ExceptionRulesSection() {
       description="What makes a trip need attention. The rules are configuration: this table is built from the same list the app uses."
     >
       <Sample label={`${EXCEPTION_RULES.length} rules`} wide>
-        <div className={tableStyles.container}>
+        <div className={tableStyles.container} tabIndex={0} role="region" aria-label="Exception rules table">
           <table className={tableStyles.table}>
             <caption className="visually-hidden">Exception rules</caption>
             <thead>
