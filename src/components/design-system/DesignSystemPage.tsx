@@ -3,11 +3,21 @@
 import PageHeader from '@/components/layout/PageHeader';
 import ButtonsSection from './ButtonsSection';
 import FormControlsSection from './FormControlsSection';
+import { ColourSection, SpacingSection, TypographySection } from './FoundationsSections';
+import { AlertsSection, BadgesSection, CardsSection, LoadingSection, StatCardsSection } from './DisplaySections';
 import styles from './DesignSystemPage.module.css';
 
 const SECTIONS = [
+  { id: 'colour', label: 'Colour' },
+  { id: 'typography', label: 'Typography' },
+  { id: 'spacing', label: 'Spacing' },
   { id: 'buttons', label: 'Buttons' },
   { id: 'form-controls', label: 'Form controls' },
+  { id: 'badges', label: 'Badges' },
+  { id: 'alerts', label: 'Alerts' },
+  { id: 'cards', label: 'Cards' },
+  { id: 'skeleton', label: 'Skeleton' },
+  { id: 'stat-cards', label: 'Stat cards' },
 ];
 
 export default function DesignSystemPage() {
@@ -27,9 +37,16 @@ export default function DesignSystemPage() {
         </ul>
       </nav>
       <div className={styles.sections}>
+        <ColourSection />
+        <TypographySection />
+        <SpacingSection />
         <ButtonsSection />
         <FormControlsSection />
-        {/* TODO(session 4): Colour, Typography, Spacing, Badges, Alerts, Cards, Empty state, Skeleton, Stat cards */}
+        <BadgesSection />
+        <AlertsSection />
+        <CardsSection />
+        <LoadingSection />
+        <StatCardsSection />
         {/* TODO(session 5): Dialog, Toast, Stepper, Error summary, Table, Exception rules */}
       </div>
     </>
