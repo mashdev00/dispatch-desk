@@ -1,0 +1,72 @@
+[
+  {
+    "id": "CL-01",
+    "name": "Two Oaks Dairy",
+    "industry": "Dairy",
+    "contactName": "Adeel Rana",
+    "contactPhone": "0300-0000101"
+  },
+  {
+    "id": "CL-02",
+    "name": "Kestrel Pharma",
+    "industry": "Pharmaceuticals",
+    "contactName": "Sadia Malik",
+    "contactPhone": "0300-0000102"
+  },
+  {
+    "id": "CL-03",
+    "name": "Saffron Hill Foods",
+    "industry": "Packaged foods",
+    "contactName": "Kamran Butt",
+    "contactPhone": "0300-0000103"
+  },
+  {
+    "id": "CL-04",
+    "name": "Greyrock Cement",
+    "industry": "Cement",
+    "contactName": "Nida Hashmi",
+    "contactPhone": "0300-0000104"
+  },
+  {
+    "id": "CL-05",
+    "name": "Juniper Textiles",
+    "industry": "Textiles",
+    "contactName": "Waqas Anjum",
+    "contactPhone": "0300-0000105"
+  },
+  {
+    "id": "CL-06",
+    "name": "Lantern Home Appliances",
+    "industry": "Home appliances",
+    "contactName": "Farah Zaidi",
+    "contactPhone": "0300-0000106"
+  },
+  {
+    "id": "CL-07",
+    "name": "Palmline Fertilizers",
+    "industry": "Fertilizers",
+    "contactName": "Junaid Akhtar",
+    "contactPhone": "0300-0000107"
+  },
+  {
+    "id": "CL-08",
+    "name": "Northgate Beverages",
+    "industry": "Beverages",
+    "contactName": "Mariam Shah",
+    "contactPhone": "0300-0000108"
+  },
+  {
+    "id": "CL-09",
+    "name": "Blue Crane Frozen Foods",
+    "industry": "Frozen foods",
+    "contactName": "Rabia Chaudhry",
+    "contactPhone": "0300-0000109"
+  },
+  {
+    "id": "CL-10",
+    "name": "Riverstone Steel",
+    "industry": "Steel",
+    "contactName": "Hamza Siddiqui",
+    "contactPhone": "0300-0000110"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "V-01",
+    "code": "TRK-101",
+    "plate": "KMN-9483",
+    "type": "shehzore",
+    "capacityKg": 2000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-02",
+    "code": "TRK-102",
+    "plate": "MNA-5761",
+    "type": "shehzore",
+    "capacityKg": 2000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-03",
+    "code": "TRK-103",
+    "plate": "FDA-8586",
+    "type": "shehzore",
+    "capacityKg": 2000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-04",
+    "code": "TRK-104",
+    "plate": "LEF-8145",
+    "type": "shehzore",
+    "capacityKg": 2000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-05",
+    "code": "TRK-105",
+    "plate": "LEH-6996",
+    "type": "mazda_20ft",
+    "capacityKg": 5000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-06",
+    "code": "TRK-106",
+    "plate": "KPR-2117",
+    "type": "mazda_20ft",
+    "capacityKg": 5000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-07",
+    "code": "TRK-107",
+    "plate": "RLA-1149",
+    "type": "mazda_20ft",
+    "capacityKg": 5000,
+    "reefer": false,
+    "homeCityId": "faisalabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-08",
+    "code": "TRK-108",
+    "plate": "TLA-9223",
+    "type": "mazda_20ft",
+    "capacityKg": 5000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-09",
+    "code": "TRK-109",
+    "plate": "SKA-7926",
+    "type": "mazda_20ft",
+    "capacityKg": 5000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-10",
+    "code": "TRK-110",
+    "plate": "KPR-8295",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-11",
+    "code": "TRK-111",
+    "plate": "RLA-8338",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-12",
+    "code": "TRK-112",
+    "plate": "FDA-3168",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "islamabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-13",
+    "code": "TRK-113",
+    "plate": "MNA-1907",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "faisalabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-14",
+    "code": "TRK-114",
+    "plate": "LEF-8954",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "multan",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-15",
+    "code": "TRK-115",
+    "plate": "KMN-3051",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-16",
+    "code": "TRK-116",
+    "plate": "LEF-5163",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-17",
+    "code": "TRK-117",
+    "plate": "FDA-6163",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "islamabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-18",
+    "code": "TRK-118",
+    "plate": "KPR-3380",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "faisalabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-19",
+    "code": "TRK-119",
+    "plate": "LES-3142",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "multan",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-20",
+    "code": "TRK-120",
+    "plate": "RLA-8285",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-21",
+    "code": "TRK-121",
+    "plate": "KPR-7096",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-22",
+    "code": "TRK-122",
+    "plate": "MNA-5829",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "islamabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-23",
+    "code": "TRK-123",
+    "plate": "LEH-8090",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "faisalabad",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-24",
+    "code": "TRK-124",
+    "plate": "KPR-4098",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "multan",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-25",
+    "code": "TRK-125",
+    "plate": "FDA-1720",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-26",
+    "code": "TRK-126",
+    "plate": "SKA-7137",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-27",
+    "code": "TRK-127",
+    "plate": "LES-7841",
+    "type": "hino_22ft",
+    "capacityKg": 10000,
+    "reefer": false,
+    "homeCityId": "islamabad",
+    "inWorkshopUntil": "2026-10-02T18:00:00+05:00"
+  },
+  {
+    "id": "V-28",
+    "code": "TRK-128",
+    "plate": "TLA-9553",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-29",
+    "code": "TRK-129",
+    "plate": "SKA-4995",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-30",
+    "code": "TRK-130",
+    "plate": "TLB-8131",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-31",
+    "code": "TRK-131",
+    "plate": "MNA-9007",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-32",
+    "code": "TRK-132",
+    "plate": "MNA-8955",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-33",
+    "code": "TRK-133",
+    "plate": "LEH-1232",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-34",
+    "code": "TRK-134",
+    "plate": "LEF-3659",
+    "type": "reefer_mazda",
+    "capacityKg": 3500,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": "2026-09-30T14:00:00+05:00"
+  },
+  {
+    "id": "V-35",
+    "code": "TRK-135",
+    "plate": "LEF-3974",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-36",
+    "code": "TRK-136",
+    "plate": "LEB-2979",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-37",
+    "code": "TRK-137",
+    "plate": "SKA-8232",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-38",
+    "code": "TRK-138",
+    "plate": "LEB-1979",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-39",
+    "code": "TRK-139",
+    "plate": "LEF-5134",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-40",
+    "code": "TRK-140",
+    "plate": "TLB-4738",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-41",
+    "code": "TRK-141",
+    "plate": "FDA-4202",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-42",
+    "code": "TRK-142",
+    "plate": "LEF-3156",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-43",
+    "code": "TRK-143",
+    "plate": "TLA-7716",
+    "type": "reefer_22ft",
+    "capacityKg": 8000,
+    "reefer": true,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-44",
+    "code": "TRK-144",
+    "plate": "RLA-9723",
+    "type": "ten_wheeler",
+    "capacityKg": 18000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-45",
+    "code": "TRK-145",
+    "plate": "TLA-3476",
+    "type": "ten_wheeler",
+    "capacityKg": 18000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-46",
+    "code": "TRK-146",
+    "plate": "SKA-1296",
+    "type": "ten_wheeler",
+    "capacityKg": 18000,
+    "reefer": false,
+    "homeCityId": "multan",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-47",
+    "code": "TRK-147",
+    "plate": "LEB-8007",
+    "type": "ten_wheeler",
+    "capacityKg": 18000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": "2026-10-02T18:00:00+05:00"
+  },
+  {
+    "id": "V-48",
+    "code": "TRK-148",
+    "plate": "LEF-5934",
+    "type": "trailer_40ft",
+    "capacityKg": 27000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-49",
+    "code": "TRK-149",
+    "plate": "RLA-8996",
+    "type": "trailer_40ft",
+    "capacityKg": 27000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-50",
+    "code": "TRK-150",
+    "plate": "RLA-9527",
+    "type": "trailer_40ft",
+    "capacityKg": 27000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-51",
+    "code": "TRK-151",
+    "plate": "LEB-1962",
+    "type": "trailer_40ft",
+    "capacityKg": 27000,
+    "reefer": false,
+    "homeCityId": "lahore",
+    "inWorkshopUntil": null
+  },
+  {
+    "id": "V-52",
+    "code": "TRK-152",
+    "plate": "LEF-1990",
+    "type": "trailer_40ft",
+    "capacityKg": 27000,
+    "reefer": false,
+    "homeCityId": "karachi",
+    "inWorkshopUntil": null
+  }
+]

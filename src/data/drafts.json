@@ -1,0 +1,128 @@
+[
+  {
+    "id": "DRF-1001",
+    "step": 1,
+    "createdAt": "2026-09-29T09:12:00+05:00",
+    "updatedAt": "2026-09-29T09:14:00+05:00",
+    "form": {
+      "clientId": "CL-05",
+      "reference": "PO-70415",
+      "cargoCategory": "textiles",
+      "cargoDescription": "Towels and bed sheets for export",
+      "weightKg": "",
+      "pallets": "",
+      "stops": [
+        {
+          "key": "stop-1",
+          "kind": "pickup",
+          "cityId": "",
+          "siteName": "",
+          "address": "",
+          "contactName": "",
+          "contactPhone": "",
+          "windowStart": "",
+          "windowEnd": ""
+        },
+        {
+          "key": "stop-2",
+          "kind": "drop",
+          "cityId": "",
+          "siteName": "",
+          "address": "",
+          "contactName": "",
+          "contactPhone": "",
+          "windowStart": "",
+          "windowEnd": ""
+        }
+      ],
+      "vehicleId": "",
+      "driverId": "",
+      "assignLater": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "DRF-1002",
+    "step": 2,
+    "createdAt": "2026-09-28T18:40:00+05:00",
+    "updatedAt": "2026-09-28T18:52:00+05:00",
+    "form": {
+      "clientId": "CL-01",
+      "reference": "",
+      "cargoCategory": "dairy_chilled",
+      "cargoDescription": "Fresh cream, cartons",
+      "weightKg": "2600",
+      "pallets": "6",
+      "stops": [
+        {
+          "key": "stop-1",
+          "kind": "pickup",
+          "cityId": "lahore",
+          "siteName": "Two Oaks Dairy — Lahore plant",
+          "address": "Plot 12, Sundar Industrial Estate, Raiwind Road, Lahore",
+          "contactName": "Asma Noor",
+          "contactPhone": "0300-0000112",
+          "windowStart": "2026-09-30T05:00",
+          "windowEnd": "2026-09-30T06:00"
+        },
+        {
+          "key": "stop-2",
+          "kind": "drop",
+          "cityId": "sialkot",
+          "siteName": "",
+          "address": "",
+          "contactName": "",
+          "contactPhone": "",
+          "windowStart": "",
+          "windowEnd": ""
+        }
+      ],
+      "vehicleId": "",
+      "driverId": "",
+      "assignLater": false,
+      "notes": ""
+    }
+  },
+  {
+    "id": "DRF-1003",
+    "step": 3,
+    "createdAt": "2026-09-29T08:05:00+05:00",
+    "updatedAt": "2026-09-29T08:20:00+05:00",
+    "form": {
+      "clientId": "CL-10",
+      "reference": "PO-18301",
+      "cargoCategory": "steel",
+      "cargoDescription": "Steel pipes, bundled",
+      "weightKg": "15000",
+      "pallets": "",
+      "stops": [
+        {
+          "key": "stop-1",
+          "kind": "pickup",
+          "cityId": "karachi",
+          "siteName": "Riverstone Steel — Port Qasim mill",
+          "address": "Eastern Industrial Zone, Port Qasim, Karachi",
+          "contactName": "Nighat Sultana",
+          "contactPhone": "0300-0000160",
+          "windowStart": "2026-10-01T06:00",
+          "windowEnd": "2026-10-01T08:00"
+        },
+        {
+          "key": "stop-2",
+          "kind": "drop",
+          "cityId": "lahore",
+          "siteName": "Riverstone — Lahore yard",
+          "address": "Ferozepur Road, Lahore",
+          "contactName": "Asad Mumtaz",
+          "contactPhone": "0300-0000161",
+          "windowStart": "2026-10-02T06:00",
+          "windowEnd": "2026-10-02T12:00"
+        }
+      ],
+      "vehicleId": "",
+      "driverId": "",
+      "assignLater": false,
+      "notes": ""
+    }
+  }
+]

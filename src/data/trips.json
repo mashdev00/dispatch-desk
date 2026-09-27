@@ -1,0 +1,6659 @@
+[
+  {
+    "id": "TRP-24101",
+    "reference": "PO-23341",
+    "status": "delivered",
+    "clientId": "CL-09",
+    "cargo": {
+      "category": "frozen",
+      "description": "Frozen fish fillets",
+      "weightKg": 4800,
+      "pallets": 10,
+      "tempRangeC": {
+        "min": -22,
+        "max": -15
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Blue Crane Frozen Foods — Karachi plant",
+        "address": "Sector 12-C, North Karachi Industrial Area, Karachi",
+        "contactName": "Rukhsana Bibi",
+        "contactPhone": "0300-0000156",
+        "windowStart": "2026-09-26T18:00:00+05:00",
+        "windowEnd": "2026-09-26T19:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T18:05:00+05:00",
+        "departedAt": "2026-09-26T18:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Blue Crane — Sukkur cold store",
+        "address": "SITE Area, Sukkur",
+        "contactName": "Shazia Parveen",
+        "contactPhone": "0300-0000158",
+        "windowStart": "2026-09-27T02:00:00+05:00",
+        "windowEnd": "2026-09-27T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T03:10:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-43",
+    "driverId": "D-27",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-26T19:00:00+05:00",
+        "celsius": -18.5
+      },
+      {
+        "at": "2026-09-26T19:15:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-26T19:30:00+05:00",
+        "celsius": -18.6
+      },
+      {
+        "at": "2026-09-26T19:45:00+05:00",
+        "celsius": -18.7
+      },
+      {
+        "at": "2026-09-26T20:00:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-26T20:15:00+05:00",
+        "celsius": -19.3
+      },
+      {
+        "at": "2026-09-26T20:30:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-26T20:45:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-26T21:00:00+05:00",
+        "celsius": -19.1
+      },
+      {
+        "at": "2026-09-26T21:15:00+05:00",
+        "celsius": -19.4
+      },
+      {
+        "at": "2026-09-26T21:30:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-26T21:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-26T22:00:00+05:00",
+        "celsius": -19.3
+      },
+      {
+        "at": "2026-09-26T22:15:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-26T22:30:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-26T22:45:00+05:00",
+        "celsius": -19.3
+      },
+      {
+        "at": "2026-09-26T23:00:00+05:00",
+        "celsius": -19.4
+      },
+      {
+        "at": "2026-09-26T23:15:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-26T23:30:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-26T23:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T00:00:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T00:15:00+05:00",
+        "celsius": -19.3
+      },
+      {
+        "at": "2026-09-27T00:30:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T00:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T01:00:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-27T01:15:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T01:30:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T01:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T02:00:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T02:15:00+05:00",
+        "celsius": -19.4
+      },
+      {
+        "at": "2026-09-27T02:30:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T02:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-27T03:00:00+05:00",
+        "celsius": -19.5
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24101-a1",
+        "at": "2026-09-25T10:45:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-23341."
+      },
+      {
+        "id": "TRP-24101-a2",
+        "at": "2026-09-25T11:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-143 · Reefer 22 ft and driver Anwar Lashari."
+      },
+      {
+        "id": "TRP-24101-a3",
+        "at": "2026-09-26T18:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Blue Crane Frozen Foods — Karachi plant."
+      },
+      {
+        "id": "TRP-24101-a4",
+        "at": "2026-09-26T18:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24101-a5",
+        "at": "2026-09-26T18:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Blue Crane Frozen Foods — Karachi plant."
+      },
+      {
+        "id": "TRP-24101-a6",
+        "at": "2026-09-27T03:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Blue Crane — Sukkur cold store."
+      },
+      {
+        "id": "TRP-24101-a7",
+        "at": "2026-09-27T03:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-25T10:45:00+05:00",
+    "updatedAt": "2026-09-27T03:45:00+05:00"
+  },
+  {
+    "id": "TRP-24102",
+    "reference": "PO-70290",
+    "status": "delivered",
+    "clientId": "CL-05",
+    "cargo": {
+      "category": "textiles",
+      "description": "Greige fabric rolls",
+      "weightKg": 8500,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "faisalabad",
+        "siteName": "Juniper Textiles — Faisalabad mill",
+        "address": "M-3 Industrial City, Sahianwala, Faisalabad",
+        "contactName": "Mehreen Aziz",
+        "contactPhone": "0300-0000138",
+        "windowStart": "2026-09-26T08:00:00+05:00",
+        "windowEnd": "2026-09-26T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T08:15:00+05:00",
+        "departedAt": "2026-09-26T09:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Juniper — Lahore warehouse",
+        "address": "Multan Road, Lahore",
+        "contactName": "Saima Javed",
+        "contactPhone": "0300-0000140",
+        "windowStart": "2026-09-26T13:00:00+05:00",
+        "windowEnd": "2026-09-26T16:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T13:05:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-24",
+    "driverId": "D-23",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24102-a1",
+        "at": "2026-09-25T11:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-70290."
+      },
+      {
+        "id": "TRP-24102-a2",
+        "at": "2026-09-25T11:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-124 · Hino 22 ft and driver Ejaz Tareen."
+      },
+      {
+        "id": "TRP-24102-a3",
+        "at": "2026-09-26T08:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Juniper Textiles — Faisalabad mill."
+      },
+      {
+        "id": "TRP-24102-a4",
+        "at": "2026-09-26T09:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24102-a5",
+        "at": "2026-09-26T09:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Juniper Textiles — Faisalabad mill."
+      },
+      {
+        "id": "TRP-24102-a6",
+        "at": "2026-09-26T13:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Juniper — Lahore warehouse."
+      },
+      {
+        "id": "TRP-24102-a7",
+        "at": "2026-09-26T13:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-25T11:20:00+05:00",
+    "updatedAt": "2026-09-26T13:40:00+05:00"
+  },
+  {
+    "id": "TRP-24103",
+    "reference": "PO-60177",
+    "status": "delivered",
+    "clientId": "CL-07",
+    "cargo": {
+      "category": "fertilizer",
+      "description": "Urea, 50 kg bags",
+      "weightKg": 17500,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Palmline Fertilizers — Port Qasim terminal",
+        "address": "Port Qasim, Karachi",
+        "contactName": "Afshan Tariq",
+        "contactPhone": "0300-0000148",
+        "windowStart": "2026-09-26T06:00:00+05:00",
+        "windowEnd": "2026-09-26T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T06:10:00+05:00",
+        "departedAt": "2026-09-26T07:45:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Palmline — Sukkur dealer hub",
+        "address": "Shikarpur Road, Sukkur",
+        "contactName": "Kamran Aslam",
+        "contactPhone": "0300-0000151",
+        "windowStart": "2026-09-26T16:00:00+05:00",
+        "windowEnd": "2026-09-26T20:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T17:10:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-46",
+    "driverId": "D-25",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24103-a1",
+        "at": "2026-09-25T13:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-60177."
+      },
+      {
+        "id": "TRP-24103-a2",
+        "at": "2026-09-25T13:20:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-146 · 10-wheeler and driver Saleem Gill."
+      },
+      {
+        "id": "TRP-24103-a3",
+        "at": "2026-09-26T06:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Palmline Fertilizers — Port Qasim terminal."
+      },
+      {
+        "id": "TRP-24103-a4",
+        "at": "2026-09-26T07:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24103-a5",
+        "at": "2026-09-26T07:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Palmline Fertilizers — Port Qasim terminal."
+      },
+      {
+        "id": "TRP-24103-a6",
+        "at": "2026-09-26T17:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Palmline — Sukkur dealer hub."
+      },
+      {
+        "id": "TRP-24103-a7",
+        "at": "2026-09-26T17:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-25T13:00:00+05:00",
+    "updatedAt": "2026-09-26T17:45:00+05:00"
+  },
+  {
+    "id": "TRP-24104",
+    "reference": "PO-90355",
+    "status": "delivered",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Biscuits, cartons",
+      "weightKg": 8800,
+      "pallets": 19,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Saffron Hill Foods — Lahore factory",
+        "address": "14 km Multan Road, Lahore",
+        "contactName": "Bushra Naz",
+        "contactPhone": "0300-0000124",
+        "windowStart": "2026-09-26T05:00:00+05:00",
+        "windowEnd": "2026-09-26T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T05:10:00+05:00",
+        "departedAt": "2026-09-26T05:55:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Saffron Hill — Islamabad DC",
+        "address": "Street 11, I-9/3 Industrial Area, Islamabad",
+        "contactName": "Rehana Kausar",
+        "contactPhone": "0300-0000128",
+        "windowStart": "2026-09-26T11:00:00+05:00",
+        "windowEnd": "2026-09-26T12:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T13:00:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-23",
+    "driverId": "D-22",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24104-a1",
+        "at": "2026-09-25T15:10:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90355."
+      },
+      {
+        "id": "TRP-24104-a2",
+        "at": "2026-09-25T15:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-123 · Hino 22 ft and driver Munir Leghari."
+      },
+      {
+        "id": "TRP-24104-a3",
+        "at": "2026-09-26T05:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill Foods — Lahore factory."
+      },
+      {
+        "id": "TRP-24104-a4",
+        "at": "2026-09-26T05:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24104-a5",
+        "at": "2026-09-26T05:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill Foods — Lahore factory."
+      },
+      {
+        "id": "TRP-24104-a6",
+        "at": "2026-09-26T13:00:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Saffron Hill — Islamabad DC."
+      },
+      {
+        "id": "TRP-24104-a7",
+        "at": "2026-09-26T13:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-25T15:10:00+05:00",
+    "updatedAt": "2026-09-26T13:35:00+05:00"
+  },
+  {
+    "id": "TRP-24105",
+    "reference": "PO-55061",
+    "status": "delivered",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Insulin, insulated cartons",
+      "weightKg": 5400,
+      "pallets": 13,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Kestrel Pharma — Korangi plant",
+        "address": "Plot 44, Sector 15, Korangi Industrial Area, Karachi",
+        "contactName": "Amna Tahir",
+        "contactPhone": "0300-0000118",
+        "windowStart": "2026-09-26T04:00:00+05:00",
+        "windowEnd": "2026-09-26T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T04:10:00+05:00",
+        "departedAt": "2026-09-26T04:55:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Kestrel Pharma — Multan depot",
+        "address": "Industrial Estate Phase II, Multan",
+        "contactName": "Aamir Latif",
+        "contactPhone": "0300-0000123",
+        "windowStart": "2026-09-26T19:00:00+05:00",
+        "windowEnd": "2026-09-26T23:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-26T21:30:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-41",
+    "driverId": "D-26",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-26T05:00:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-26T05:15:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-26T05:30:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-26T05:45:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-26T06:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-26T06:15:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-26T06:30:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-26T06:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-26T07:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T07:15:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-26T07:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T07:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-26T08:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T08:15:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T08:30:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-26T08:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T09:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T09:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T09:30:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T09:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T10:00:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T10:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T10:30:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T10:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T11:00:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-26T11:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T11:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T11:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T12:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T12:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T12:30:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T12:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T13:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T13:15:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-26T13:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-26T13:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T14:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-26T14:15:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-26T14:30:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-26T14:45:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-26T15:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-26T15:15:00+05:00",
+        "celsius": 5.6
+      },
+      {
+        "at": "2026-09-26T15:30:00+05:00",
+        "celsius": 5.6
+      },
+      {
+        "at": "2026-09-26T15:45:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T16:00:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T16:15:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T16:30:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T16:45:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T17:00:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T17:15:00+05:00",
+        "celsius": 5.3
+      },
+      {
+        "at": "2026-09-26T17:30:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-26T17:45:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T18:00:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T18:15:00+05:00",
+        "celsius": 5.6
+      },
+      {
+        "at": "2026-09-26T18:30:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-26T18:45:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-26T19:00:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T19:15:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-26T19:30:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T19:45:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-26T20:00:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T20:15:00+05:00",
+        "celsius": 5.3
+      },
+      {
+        "at": "2026-09-26T20:30:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-26T20:45:00+05:00",
+        "celsius": 5.3
+      },
+      {
+        "at": "2026-09-26T21:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-26T21:15:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-26T21:30:00+05:00",
+        "celsius": 5.3
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24105-a1",
+        "at": "2026-09-25T17:25:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55061."
+      },
+      {
+        "id": "TRP-24105-a2",
+        "at": "2026-09-25T17:45:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-141 · Reefer 22 ft and driver Sher Zaman Mohmand."
+      },
+      {
+        "id": "TRP-24105-a3",
+        "at": "2026-09-26T04:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Kestrel Pharma — Korangi plant."
+      },
+      {
+        "id": "TRP-24105-a4",
+        "at": "2026-09-26T04:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24105-a5",
+        "at": "2026-09-26T04:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Kestrel Pharma — Korangi plant."
+      },
+      {
+        "id": "TRP-24105-a6",
+        "at": "2026-09-26T21:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Kestrel Pharma — Multan depot."
+      },
+      {
+        "id": "TRP-24105-a7",
+        "at": "2026-09-26T22:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-25T17:25:00+05:00",
+    "updatedAt": "2026-09-26T22:05:00+05:00"
+  },
+  {
+    "id": "TRP-24106",
+    "reference": "PO-44790",
+    "status": "delivered",
+    "clientId": "CL-04",
+    "cargo": {
+      "category": "cement",
+      "description": "Cement, 50 kg bags",
+      "weightKg": 17800,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "chakwal",
+        "siteName": "Greyrock Cement — Chakwal plant",
+        "address": "Kallar Kahar Road, Chakwal",
+        "contactName": "Atif Rasheed",
+        "contactPhone": "0300-0000133",
+        "windowStart": "2026-09-27T06:00:00+05:00",
+        "windowEnd": "2026-09-27T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T06:30:00+05:00",
+        "departedAt": "2026-09-27T08:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Greyrock — Lahore depot",
+        "address": "Ferozepur Road, Lahore",
+        "contactName": "Lubna Ashraf",
+        "contactPhone": "0300-0000136",
+        "windowStart": "2026-09-27T12:00:00+05:00",
+        "windowEnd": "2026-09-27T15:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T16:45:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-45",
+    "driverId": "D-24",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24106-a1",
+        "at": "2026-09-26T09:40:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-44790."
+      },
+      {
+        "id": "TRP-24106-a2",
+        "at": "2026-09-26T10:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-145 · 10-wheeler and driver Bashir Rajput."
+      },
+      {
+        "id": "TRP-24106-a3",
+        "at": "2026-09-27T06:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Greyrock Cement — Chakwal plant."
+      },
+      {
+        "id": "TRP-24106-a4",
+        "at": "2026-09-27T08:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24106-a5",
+        "at": "2026-09-27T08:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Greyrock Cement — Chakwal plant."
+      },
+      {
+        "id": "TRP-24106-a6",
+        "at": "2026-09-27T13:30:00+05:00",
+        "actor": "System",
+        "kind": "eta",
+        "message": "ETA for Lahore updated to 16:40 (was 14:10). Accident on the M-2 near Kallar Kahar."
+      },
+      {
+        "id": "TRP-24106-a7",
+        "at": "2026-09-27T16:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Greyrock — Lahore depot."
+      },
+      {
+        "id": "TRP-24106-a8",
+        "at": "2026-09-27T17:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T09:40:00+05:00",
+    "updatedAt": "2026-09-27T17:20:00+05:00"
+  },
+  {
+    "id": "TRP-24107",
+    "reference": "PO-12071",
+    "status": "delivered",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "Split air conditioners",
+      "weightKg": 6200,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Lantern Home Appliances — Lahore factory",
+        "address": "Plot 70, Sundar Industrial Estate, Lahore",
+        "contactName": "Naila Qamar",
+        "contactPhone": "0300-0000142",
+        "windowStart": "2026-09-27T06:00:00+05:00",
+        "windowEnd": "2026-09-27T07:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T06:10:00+05:00",
+        "departedAt": "2026-09-27T06:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Lantern — Islamabad depot",
+        "address": "Street 5, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Rabia Kanwal",
+        "contactPhone": "0300-0000146",
+        "windowStart": "2026-09-27T12:00:00+05:00",
+        "windowEnd": "2026-09-27T15:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T12:40:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-22",
+    "driverId": "D-23",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24107-a1",
+        "at": "2026-09-26T10:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12071."
+      },
+      {
+        "id": "TRP-24107-a2",
+        "at": "2026-09-26T10:25:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-122 · Hino 22 ft and driver Ejaz Tareen."
+      },
+      {
+        "id": "TRP-24107-a3",
+        "at": "2026-09-27T06:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern Home Appliances — Lahore factory."
+      },
+      {
+        "id": "TRP-24107-a4",
+        "at": "2026-09-27T06:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24107-a5",
+        "at": "2026-09-27T06:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern Home Appliances — Lahore factory."
+      },
+      {
+        "id": "TRP-24107-a6",
+        "at": "2026-09-27T12:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Lantern — Islamabad depot."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T10:05:00+05:00",
+    "updatedAt": "2026-09-27T12:40:00+05:00"
+  },
+  {
+    "id": "TRP-24108",
+    "reference": "PO-18236",
+    "status": "in_transit",
+    "clientId": "CL-10",
+    "cargo": {
+      "category": "steel",
+      "description": "Hot-rolled steel coils",
+      "weightKg": 25000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Riverstone Steel — Port Qasim mill",
+        "address": "Eastern Industrial Zone, Port Qasim, Karachi",
+        "contactName": "Nighat Sultana",
+        "contactPhone": "0300-0000160",
+        "windowStart": "2026-09-28T08:00:00+05:00",
+        "windowEnd": "2026-09-28T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T08:10:00+05:00",
+        "departedAt": "2026-09-28T09:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Riverstone — Lahore yard",
+        "address": "Ferozepur Road, Lahore",
+        "contactName": "Asad Mumtaz",
+        "contactPhone": "0300-0000161",
+        "windowStart": "2026-09-29T16:00:00+05:00",
+        "windowEnd": "2026-09-29T20:00:00+05:00",
+        "eta": "2026-09-29T17:40:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-50",
+    "driverId": "D-11",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:23:00+05:00",
+      "locationLabel": "M-5 motorway, 20 km to Multan",
+      "speedKph": 49
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24108-a1",
+        "at": "2026-09-26T11:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-18236."
+      },
+      {
+        "id": "TRP-24108-a2",
+        "at": "2026-09-26T11:20:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-150 · 40 ft trailer and driver Arshad Cheema."
+      },
+      {
+        "id": "TRP-24108-a3",
+        "at": "2026-09-28T08:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Riverstone Steel — Port Qasim mill."
+      },
+      {
+        "id": "TRP-24108-a4",
+        "at": "2026-09-28T09:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24108-a5",
+        "at": "2026-09-28T09:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Riverstone Steel — Port Qasim mill."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T11:00:00+05:00",
+    "updatedAt": "2026-09-28T09:50:00+05:00"
+  },
+  {
+    "id": "TRP-24109",
+    "reference": "PO-23380",
+    "status": "delivered",
+    "clientId": "CL-09",
+    "cargo": {
+      "category": "frozen",
+      "description": "Frozen samosas and rolls",
+      "weightKg": 5000,
+      "pallets": 11,
+      "tempRangeC": {
+        "min": -22,
+        "max": -15
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Blue Crane Frozen Foods — Karachi plant",
+        "address": "Sector 12-C, North Karachi Industrial Area, Karachi",
+        "contactName": "Rukhsana Bibi",
+        "contactPhone": "0300-0000156",
+        "windowStart": "2026-09-27T20:00:00+05:00",
+        "windowEnd": "2026-09-27T21:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T20:05:00+05:00",
+        "departedAt": "2026-09-27T20:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Blue Crane — Hyderabad cold store",
+        "address": "SITE Area, Hyderabad",
+        "contactName": "Mudassar Latif",
+        "contactPhone": "0300-0000157",
+        "windowStart": "2026-09-27T23:00:00+05:00",
+        "windowEnd": "2026-09-28T00:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T00:50:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-40",
+    "driverId": "D-25",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-27T21:00:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-27T21:15:00+05:00",
+        "celsius": -18.7
+      },
+      {
+        "at": "2026-09-27T21:30:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-27T21:45:00+05:00",
+        "celsius": -18.5
+      },
+      {
+        "at": "2026-09-27T22:00:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-27T22:15:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-27T22:30:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-27T22:45:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-27T23:00:00+05:00",
+        "celsius": -18.2
+      },
+      {
+        "at": "2026-09-27T23:15:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-27T23:30:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-27T23:45:00+05:00",
+        "celsius": -18.0
+      },
+      {
+        "at": "2026-09-28T00:00:00+05:00",
+        "celsius": -17.7
+      },
+      {
+        "at": "2026-09-28T00:15:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-28T00:30:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-28T00:45:00+05:00",
+        "celsius": -18.2
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24109-a1",
+        "at": "2026-09-26T12:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-23380."
+      },
+      {
+        "id": "TRP-24109-a2",
+        "at": "2026-09-26T12:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-140 · Reefer 22 ft and driver Saleem Gill."
+      },
+      {
+        "id": "TRP-24109-a3",
+        "at": "2026-09-27T20:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Blue Crane Frozen Foods — Karachi plant."
+      },
+      {
+        "id": "TRP-24109-a4",
+        "at": "2026-09-27T20:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24109-a5",
+        "at": "2026-09-27T20:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Blue Crane Frozen Foods — Karachi plant."
+      },
+      {
+        "id": "TRP-24109-a6",
+        "at": "2026-09-28T00:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Blue Crane — Hyderabad cold store."
+      },
+      {
+        "id": "TRP-24109-a7",
+        "at": "2026-09-28T01:25:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T12:00:00+05:00",
+    "updatedAt": "2026-09-28T01:25:00+05:00"
+  },
+  {
+    "id": "TRP-24110",
+    "reference": "PO-81490",
+    "status": "delivered",
+    "clientId": "CL-08",
+    "cargo": {
+      "category": "beverages",
+      "description": "Soft drinks, cans",
+      "weightKg": 9200,
+      "pallets": 20,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Northgate Beverages — Lahore bottling plant",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Iqra Saleem",
+        "contactPhone": "0300-0000152",
+        "windowStart": "2026-09-27T22:00:00+05:00",
+        "windowEnd": "2026-09-27T23:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T22:05:00+05:00",
+        "departedAt": "2026-09-27T23:00:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Northgate — Islamabad DC",
+        "address": "Street 9, I-10/3 Industrial Area, Islamabad",
+        "contactName": "Haris Mehmood",
+        "contactPhone": "0300-0000153",
+        "windowStart": "2026-09-28T06:00:00+05:00",
+        "windowEnd": "2026-09-28T09:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T08:10:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-21",
+    "driverId": "D-22",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24110-a1",
+        "at": "2026-09-26T14:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-81490."
+      },
+      {
+        "id": "TRP-24110-a2",
+        "at": "2026-09-26T14:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-121 · Hino 22 ft and driver Munir Leghari."
+      },
+      {
+        "id": "TRP-24110-a3",
+        "at": "2026-09-27T22:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Northgate Beverages — Lahore bottling plant."
+      },
+      {
+        "id": "TRP-24110-a4",
+        "at": "2026-09-27T22:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24110-a5",
+        "at": "2026-09-27T23:00:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Northgate Beverages — Lahore bottling plant."
+      },
+      {
+        "id": "TRP-24110-a6",
+        "at": "2026-09-28T08:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Northgate — Islamabad DC."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T14:20:00+05:00",
+    "updatedAt": "2026-09-28T08:10:00+05:00"
+  },
+  {
+    "id": "TRP-24111",
+    "reference": "PO-55098",
+    "status": "delivered",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Vaccines, insulated cartons",
+      "weightKg": 2200,
+      "pallets": 6,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Kestrel Pharma — Lahore warehouse",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Nasir Jamal",
+        "contactPhone": "0300-0000119",
+        "windowStart": "2026-09-27T05:00:00+05:00",
+        "windowEnd": "2026-09-27T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T05:10:00+05:00",
+        "departedAt": "2026-09-27T05:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "rawalpindi",
+        "siteName": "Kestrel Pharma — Rawat depot",
+        "address": "Rawat Industrial Area, GT Road, Rawalpindi",
+        "contactName": "Danish Kamal",
+        "contactPhone": "0300-0000121",
+        "windowStart": "2026-09-27T11:00:00+05:00",
+        "windowEnd": "2026-09-27T13:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-27T11:40:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-32",
+    "driverId": "D-37",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-27T06:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-27T06:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-27T06:30:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-27T06:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-27T07:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-27T07:15:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-27T07:30:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-27T07:45:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-27T08:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-27T08:15:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-27T08:30:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-27T08:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-27T09:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-27T09:15:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-27T09:30:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-27T09:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-27T10:00:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-27T10:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-27T10:30:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-27T10:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-27T11:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-27T11:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-27T11:30:00+05:00",
+        "celsius": 4.3
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [
+      {
+        "key": "pod_overdue:trip",
+        "ruleId": "pod_overdue",
+        "stopId": null,
+        "actionId": "notify_client",
+        "outcome": "Consignee will email a scan",
+        "note": "Rawat depot manager (Kiran Aslam) will email the signed POD by 18:00 today.",
+        "by": "Hina Tariq · Dispatch",
+        "at": "2026-09-29T09:15:00+05:00"
+      }
+    ],
+    "activity": [
+      {
+        "id": "TRP-24111-a1",
+        "at": "2026-09-26T16:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55098."
+      },
+      {
+        "id": "TRP-24111-a2",
+        "at": "2026-09-26T16:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-132 · Reefer Mazda 16 ft and driver Asghar Dogar."
+      },
+      {
+        "id": "TRP-24111-a3",
+        "at": "2026-09-27T05:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Kestrel Pharma — Lahore warehouse."
+      },
+      {
+        "id": "TRP-24111-a4",
+        "at": "2026-09-27T05:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24111-a5",
+        "at": "2026-09-27T05:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Kestrel Pharma — Lahore warehouse."
+      },
+      {
+        "id": "TRP-24111-a6",
+        "at": "2026-09-27T11:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Kestrel Pharma — Rawat depot."
+      },
+      {
+        "id": "TRP-24111-a7",
+        "at": "2026-09-29T09:15:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "exception",
+        "message": "Notify client (POD overdue): Consignee will email a scan. Note: Rawat depot manager (Kiran Aslam) will email the signed POD by 18:00 today."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-26T16:30:00+05:00",
+    "updatedAt": "2026-09-29T09:15:00+05:00"
+  },
+  {
+    "id": "TRP-24112",
+    "reference": "PO-23407",
+    "status": "in_transit",
+    "clientId": "CL-09",
+    "cargo": {
+      "category": "frozen",
+      "description": "Frozen chicken and nuggets",
+      "weightKg": 5500,
+      "pallets": 12,
+      "tempRangeC": {
+        "min": -22,
+        "max": -15
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Blue Crane Frozen Foods — Karachi plant",
+        "address": "Sector 12-C, North Karachi Industrial Area, Karachi",
+        "contactName": "Rukhsana Bibi",
+        "contactPhone": "0300-0000156",
+        "windowStart": "2026-09-28T22:00:00+05:00",
+        "windowEnd": "2026-09-28T23:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T22:05:00+05:00",
+        "departedAt": "2026-09-28T23:10:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "quetta",
+        "siteName": "Blue Crane — Quetta cold store",
+        "address": "Sariab Road, Quetta",
+        "contactName": "Imran Shaukat",
+        "contactPhone": "0300-0000159",
+        "windowStart": "2026-09-29T13:00:00+05:00",
+        "windowEnd": "2026-09-29T17:00:00+05:00",
+        "eta": "2026-09-29T14:20:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-36",
+    "driverId": "D-08",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:21:00+05:00",
+      "locationLabel": "N-25 highway, near Kalat",
+      "speedKph": 48
+    },
+    "temperatureLog": [
+      {
+        "at": "2026-09-28T23:15:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-28T23:30:00+05:00",
+        "celsius": -18.6
+      },
+      {
+        "at": "2026-09-28T23:45:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-29T00:00:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-29T00:15:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-29T00:30:00+05:00",
+        "celsius": -19.3
+      },
+      {
+        "at": "2026-09-29T00:45:00+05:00",
+        "celsius": -19.4
+      },
+      {
+        "at": "2026-09-29T01:00:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-29T01:15:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-29T01:30:00+05:00",
+        "celsius": -19.4
+      },
+      {
+        "at": "2026-09-29T01:45:00+05:00",
+        "celsius": -19.5
+      },
+      {
+        "at": "2026-09-29T02:00:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-29T02:15:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-29T02:30:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-29T02:45:00+05:00",
+        "celsius": -19.1
+      },
+      {
+        "at": "2026-09-29T03:00:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-29T03:15:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-29T03:30:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-29T03:45:00+05:00",
+        "celsius": -18.9
+      },
+      {
+        "at": "2026-09-29T04:00:00+05:00",
+        "celsius": -19.2
+      },
+      {
+        "at": "2026-09-29T04:15:00+05:00",
+        "celsius": -18.9
+      },
+      {
+        "at": "2026-09-29T04:30:00+05:00",
+        "celsius": -18.9
+      },
+      {
+        "at": "2026-09-29T04:45:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-29T05:00:00+05:00",
+        "celsius": -18.7
+      },
+      {
+        "at": "2026-09-29T05:15:00+05:00",
+        "celsius": -18.5
+      },
+      {
+        "at": "2026-09-29T05:30:00+05:00",
+        "celsius": -18.7
+      },
+      {
+        "at": "2026-09-29T05:45:00+05:00",
+        "celsius": -19.0
+      },
+      {
+        "at": "2026-09-29T06:00:00+05:00",
+        "celsius": -18.8
+      },
+      {
+        "at": "2026-09-29T06:15:00+05:00",
+        "celsius": -18.7
+      },
+      {
+        "at": "2026-09-29T06:30:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-29T06:45:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-29T07:00:00+05:00",
+        "celsius": -18.0
+      },
+      {
+        "at": "2026-09-29T07:15:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-29T07:30:00+05:00",
+        "celsius": -18.3
+      },
+      {
+        "at": "2026-09-29T07:45:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-29T08:00:00+05:00",
+        "celsius": -18.4
+      },
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": -18.1
+      },
+      {
+        "at": "2026-09-29T08:45:00+05:00",
+        "celsius": -18.0
+      },
+      {
+        "at": "2026-09-29T09:00:00+05:00",
+        "celsius": -18.0
+      },
+      {
+        "at": "2026-09-29T09:15:00+05:00",
+        "celsius": -18.0
+      },
+      {
+        "at": "2026-09-29T09:30:00+05:00",
+        "celsius": -17.9
+      },
+      {
+        "at": "2026-09-29T09:45:00+05:00",
+        "celsius": -17.7
+      },
+      {
+        "at": "2026-09-29T10:00:00+05:00",
+        "celsius": -17.7
+      },
+      {
+        "at": "2026-09-29T10:15:00+05:00",
+        "celsius": -17.8
+      },
+      {
+        "at": "2026-09-29T10:30:00+05:00",
+        "celsius": -18.0
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24112-a1",
+        "at": "2026-09-27T09:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-23407."
+      },
+      {
+        "id": "TRP-24112-a2",
+        "at": "2026-09-27T09:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-136 · Reefer 22 ft and driver Khalid Awan."
+      },
+      {
+        "id": "TRP-24112-a3",
+        "at": "2026-09-28T22:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Blue Crane Frozen Foods — Karachi plant."
+      },
+      {
+        "id": "TRP-24112-a4",
+        "at": "2026-09-28T23:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24112-a5",
+        "at": "2026-09-28T23:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Blue Crane Frozen Foods — Karachi plant."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T09:30:00+05:00",
+    "updatedAt": "2026-09-28T23:10:00+05:00"
+  },
+  {
+    "id": "TRP-24113",
+    "reference": "PO-44871",
+    "status": "in_transit",
+    "clientId": "CL-04",
+    "cargo": {
+      "category": "cement",
+      "description": "Cement, 50 kg bags",
+      "weightKg": 17500,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Greyrock Cement — Port Qasim terminal",
+        "address": "Eastern Industrial Zone, Port Qasim, Karachi",
+        "contactName": "Sumaira Butt",
+        "contactPhone": "0300-0000134",
+        "windowStart": "2026-09-28T18:00:00+05:00",
+        "windowEnd": "2026-09-28T20:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T18:30:00+05:00",
+        "departedAt": "2026-09-28T20:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Greyrock — Multan depot",
+        "address": "Bosan Road, Multan",
+        "contactName": "Kashif Nadeem",
+        "contactPhone": "0300-0000135",
+        "windowStart": "2026-09-29T09:00:00+05:00",
+        "windowEnd": "2026-09-29T13:00:00+05:00",
+        "eta": "2026-09-29T15:10:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-44",
+    "driverId": "D-04",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:22:00+05:00",
+      "locationLabel": "M-5 motorway, 230 km to Multan",
+      "speedKph": 52
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24113-a1",
+        "at": "2026-09-27T10:15:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-44871."
+      },
+      {
+        "id": "TRP-24113-a2",
+        "at": "2026-09-27T10:35:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-144 · 10-wheeler and driver Tahir Abbasi."
+      },
+      {
+        "id": "TRP-24113-a3",
+        "at": "2026-09-28T18:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Greyrock Cement — Port Qasim terminal."
+      },
+      {
+        "id": "TRP-24113-a4",
+        "at": "2026-09-28T20:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24113-a5",
+        "at": "2026-09-28T20:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Greyrock Cement — Port Qasim terminal."
+      },
+      {
+        "id": "TRP-24113-a6",
+        "at": "2026-09-29T07:10:00+05:00",
+        "actor": "System",
+        "kind": "eta",
+        "message": "ETA for Multan updated to 15:10 (was 12:30). Slow on the N-5 after Hyderabad."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T10:15:00+05:00",
+    "updatedAt": "2026-09-29T07:10:00+05:00"
+  },
+  {
+    "id": "TRP-24114",
+    "reference": "PO-18211",
+    "status": "delivered",
+    "clientId": "CL-10",
+    "cargo": {
+      "category": "steel",
+      "description": "Steel billets",
+      "weightKg": 24000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Riverstone Steel — Port Qasim mill",
+        "address": "Eastern Industrial Zone, Port Qasim, Karachi",
+        "contactName": "Nighat Sultana",
+        "contactPhone": "0300-0000160",
+        "windowStart": "2026-09-28T06:00:00+05:00",
+        "windowEnd": "2026-09-28T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T06:20:00+05:00",
+        "departedAt": "2026-09-28T07:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Riverstone — Multan yard",
+        "address": "Bosan Road, Multan",
+        "contactName": "Taimur Aslam",
+        "contactPhone": "0300-0000163",
+        "windowStart": "2026-09-29T06:00:00+05:00",
+        "windowEnd": "2026-09-29T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T09:55:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-52",
+    "driverId": "D-26",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24114-a1",
+        "at": "2026-09-27T10:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-18211."
+      },
+      {
+        "id": "TRP-24114-a2",
+        "at": "2026-09-27T10:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-152 · 40 ft trailer and driver Sher Zaman Mohmand."
+      },
+      {
+        "id": "TRP-24114-a3",
+        "at": "2026-09-28T06:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Riverstone Steel — Port Qasim mill."
+      },
+      {
+        "id": "TRP-24114-a4",
+        "at": "2026-09-28T07:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24114-a5",
+        "at": "2026-09-28T07:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Riverstone Steel — Port Qasim mill."
+      },
+      {
+        "id": "TRP-24114-a6",
+        "at": "2026-09-29T09:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Riverstone — Multan yard."
+      },
+      {
+        "id": "TRP-24114-a7",
+        "at": "2026-09-29T10:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T10:30:00+05:00",
+    "updatedAt": "2026-09-29T10:30:00+05:00"
+  },
+  {
+    "id": "TRP-24115",
+    "reference": "PO-81470",
+    "status": "cancelled",
+    "clientId": "CL-08",
+    "cargo": {
+      "category": "beverages",
+      "description": "Soft drinks, 1.5 L bottles",
+      "weightKg": 9000,
+      "pallets": 20,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Northgate Beverages — Lahore bottling plant",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Iqra Saleem",
+        "contactPhone": "0300-0000152",
+        "windowStart": "2026-09-28T06:00:00+05:00",
+        "windowEnd": "2026-09-28T07:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Northgate — Islamabad DC",
+        "address": "Street 9, I-10/3 Industrial Area, Islamabad",
+        "contactName": "Haris Mehmood",
+        "contactPhone": "0300-0000153",
+        "windowStart": "2026-09-28T12:30:00+05:00",
+        "windowEnd": "2026-09-28T15:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24115-a1",
+        "at": "2026-09-27T11:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-81470."
+      },
+      {
+        "id": "TRP-24115-a2",
+        "at": "2026-09-27T11:25:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "cancelled",
+        "message": "Trip cancelled: Duplicate order. Note: The order was entered twice."
+      }
+    ],
+    "cancelReason": "Duplicate order",
+    "notes": "",
+    "createdAt": "2026-09-27T11:05:00+05:00",
+    "updatedAt": "2026-09-27T11:25:00+05:00"
+  },
+  {
+    "id": "TRP-24116",
+    "reference": "PO-31866",
+    "status": "delivered",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Butter and cheese, cartons",
+      "weightKg": 6000,
+      "pallets": 14,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Two Oaks Dairy — Lahore plant",
+        "address": "Plot 12, Sundar Industrial Estate, Raiwind Road, Lahore",
+        "contactName": "Asma Noor",
+        "contactPhone": "0300-0000112",
+        "windowStart": "2026-09-28T04:00:00+05:00",
+        "windowEnd": "2026-09-28T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T04:05:00+05:00",
+        "departedAt": "2026-09-28T04:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Two Oaks — Islamabad DC",
+        "address": "Street 7, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Kiran Aslam",
+        "contactPhone": "0300-0000116",
+        "windowStart": "2026-09-28T10:00:00+05:00",
+        "windowEnd": "2026-09-28T12:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T10:35:00+05:00",
+        "departedAt": "2026-09-28T11:20:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "peshawar",
+        "siteName": "Two Oaks — Peshawar DC",
+        "address": "Hayatabad Industrial Estate, Peshawar",
+        "contactName": "Shoaib Hassan",
+        "contactPhone": "0300-0000117",
+        "windowStart": "2026-09-28T14:00:00+05:00",
+        "windowEnd": "2026-09-28T16:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T14:40:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-42",
+    "driverId": "D-28",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-28T05:00:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-28T05:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T05:30:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T05:45:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-28T06:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T06:15:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-28T06:30:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-28T06:45:00+05:00",
+        "celsius": 3.9
+      },
+      {
+        "at": "2026-09-28T07:00:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-28T07:15:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-28T07:30:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-28T07:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-28T08:00:00+05:00",
+        "celsius": 3.9
+      },
+      {
+        "at": "2026-09-28T08:15:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T08:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T08:45:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-28T09:00:00+05:00",
+        "celsius": 3.9
+      },
+      {
+        "at": "2026-09-28T09:15:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-28T09:30:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-28T09:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-28T10:00:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-28T10:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T10:30:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T10:45:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T11:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T11:15:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T11:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T11:45:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T12:00:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T12:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T12:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T12:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T13:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T13:15:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T13:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T13:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T14:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T14:15:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-28T14:30:00+05:00",
+        "celsius": 4.5
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24116-a1",
+        "at": "2026-09-27T11:10:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31866."
+      },
+      {
+        "id": "TRP-24116-a2",
+        "at": "2026-09-27T11:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-142 · Reefer 22 ft and driver Fazal Wahab."
+      },
+      {
+        "id": "TRP-24116-a3",
+        "at": "2026-09-28T04:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks Dairy — Lahore plant."
+      },
+      {
+        "id": "TRP-24116-a4",
+        "at": "2026-09-28T04:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24116-a5",
+        "at": "2026-09-28T04:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Two Oaks Dairy — Lahore plant."
+      },
+      {
+        "id": "TRP-24116-a6",
+        "at": "2026-09-28T10:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks — Islamabad DC."
+      },
+      {
+        "id": "TRP-24116-a7",
+        "at": "2026-09-28T11:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Two Oaks — Islamabad DC."
+      },
+      {
+        "id": "TRP-24116-a8",
+        "at": "2026-09-28T14:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Two Oaks — Peshawar DC."
+      },
+      {
+        "id": "TRP-24116-a9",
+        "at": "2026-09-28T15:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T11:10:00+05:00",
+    "updatedAt": "2026-09-28T15:15:00+05:00"
+  },
+  {
+    "id": "TRP-24117",
+    "reference": "PO-70331",
+    "status": "in_transit",
+    "clientId": "CL-05",
+    "cargo": {
+      "category": "textiles",
+      "description": "Cotton yarn, bales",
+      "weightKg": 8800,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "faisalabad",
+        "siteName": "Juniper Textiles — Faisalabad mill",
+        "address": "M-3 Industrial City, Sahianwala, Faisalabad",
+        "contactName": "Mehreen Aziz",
+        "contactPhone": "0300-0000138",
+        "windowStart": "2026-09-28T20:00:00+05:00",
+        "windowEnd": "2026-09-28T22:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T20:25:00+05:00",
+        "departedAt": "2026-09-28T21:30:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Juniper — export yard, Port Qasim",
+        "address": "Port Qasim, Karachi",
+        "contactName": "Farhan Ghani",
+        "contactPhone": "0300-0000141",
+        "windowStart": "2026-09-29T18:00:00+05:00",
+        "windowEnd": "2026-09-29T22:00:00+05:00",
+        "eta": "2026-09-29T19:10:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-12",
+    "driverId": "D-06",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:24:00+05:00",
+      "locationLabel": "N-5 highway, near Moro",
+      "speedKph": 57
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24117-a1",
+        "at": "2026-09-27T12:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-70331."
+      },
+      {
+        "id": "TRP-24117-a2",
+        "at": "2026-09-27T12:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-112 · Hino 22 ft and driver Shahid Gondal."
+      },
+      {
+        "id": "TRP-24117-a3",
+        "at": "2026-09-28T20:25:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Juniper Textiles — Faisalabad mill."
+      },
+      {
+        "id": "TRP-24117-a4",
+        "at": "2026-09-28T21:25:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24117-a5",
+        "at": "2026-09-28T21:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Juniper Textiles — Faisalabad mill."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T12:00:00+05:00",
+    "updatedAt": "2026-09-28T21:30:00+05:00"
+  },
+  {
+    "id": "TRP-24118",
+    "reference": "PO-90420",
+    "status": "cancelled",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Flour and rice, 25 kg bags",
+      "weightKg": 7500,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Saffron Hill Foods — Lahore factory",
+        "address": "14 km Multan Road, Lahore",
+        "contactName": "Bushra Naz",
+        "contactPhone": "0300-0000124",
+        "windowStart": "2026-09-29T09:00:00+05:00",
+        "windowEnd": "2026-09-29T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Saffron Hill — Multan DC",
+        "address": "Vehari Road, Multan",
+        "contactName": "Omer Saeed",
+        "contactPhone": "0300-0000127",
+        "windowStart": "2026-09-29T15:00:00+05:00",
+        "windowEnd": "2026-09-29T17:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24118-a1",
+        "at": "2026-09-27T12:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90420."
+      },
+      {
+        "id": "TRP-24118-a2",
+        "at": "2026-09-28T19:10:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "cancelled",
+        "message": "Trip cancelled: Client postponed the order. Note: Client will rebook next week."
+      }
+    ],
+    "cancelReason": "Client postponed the order",
+    "notes": "",
+    "createdAt": "2026-09-27T12:30:00+05:00",
+    "updatedAt": "2026-09-28T19:10:00+05:00"
+  },
+  {
+    "id": "TRP-24119",
+    "reference": "PO-81511",
+    "status": "delivered",
+    "clientId": "CL-08",
+    "cargo": {
+      "category": "beverages",
+      "description": "Juices, 1 L packs",
+      "weightKg": 9600,
+      "pallets": 21,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Northgate Beverages — Lahore bottling plant",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Iqra Saleem",
+        "contactPhone": "0300-0000152",
+        "windowStart": "2026-09-28T05:00:00+05:00",
+        "windowEnd": "2026-09-28T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T05:05:00+05:00",
+        "departedAt": "2026-09-28T05:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "gujranwala",
+        "siteName": "Northgate — Gujranwala DC",
+        "address": "GT Road, Gujranwala",
+        "contactName": "Sadaf Anjum",
+        "contactPhone": "0300-0000154",
+        "windowStart": "2026-09-28T07:30:00+05:00",
+        "windowEnd": "2026-09-28T09:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T07:25:00+05:00",
+        "departedAt": "2026-09-28T08:05:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "faisalabad",
+        "siteName": "Northgate — Faisalabad DC",
+        "address": "Canal Road, Faisalabad",
+        "contactName": "Faizan Qureshi",
+        "contactPhone": "0300-0000155",
+        "windowStart": "2026-09-28T11:00:00+05:00",
+        "windowEnd": "2026-09-28T13:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T11:20:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-25",
+    "driverId": "D-24",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24119-a1",
+        "at": "2026-09-27T14:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-81511."
+      },
+      {
+        "id": "TRP-24119-a2",
+        "at": "2026-09-27T15:10:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-125 · Hino 22 ft and driver Bashir Rajput."
+      },
+      {
+        "id": "TRP-24119-a3",
+        "at": "2026-09-28T05:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Northgate Beverages — Lahore bottling plant."
+      },
+      {
+        "id": "TRP-24119-a4",
+        "at": "2026-09-28T05:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24119-a5",
+        "at": "2026-09-28T05:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Northgate Beverages — Lahore bottling plant."
+      },
+      {
+        "id": "TRP-24119-a6",
+        "at": "2026-09-28T07:25:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Northgate — Gujranwala DC."
+      },
+      {
+        "id": "TRP-24119-a7",
+        "at": "2026-09-28T08:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Northgate — Gujranwala DC."
+      },
+      {
+        "id": "TRP-24119-a8",
+        "at": "2026-09-28T11:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Northgate — Faisalabad DC."
+      },
+      {
+        "id": "TRP-24119-a9",
+        "at": "2026-09-28T11:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T14:50:00+05:00",
+    "updatedAt": "2026-09-28T11:55:00+05:00"
+  },
+  {
+    "id": "TRP-24120",
+    "reference": "PO-44880",
+    "status": "cancelled",
+    "clientId": "CL-04",
+    "cargo": {
+      "category": "cement",
+      "description": "Cement, 50 kg bags",
+      "weightKg": 16000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "chakwal",
+        "siteName": "Greyrock Cement — Chakwal plant",
+        "address": "Kallar Kahar Road, Chakwal",
+        "contactName": "Atif Rasheed",
+        "contactPhone": "0300-0000133",
+        "windowStart": "2026-09-29T06:00:00+05:00",
+        "windowEnd": "2026-09-29T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Greyrock — Lahore depot",
+        "address": "Ferozepur Road, Lahore",
+        "contactName": "Lubna Ashraf",
+        "contactPhone": "0300-0000136",
+        "windowStart": "2026-09-29T12:00:00+05:00",
+        "windowEnd": "2026-09-29T16:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-47",
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24120-a1",
+        "at": "2026-09-27T15:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-44880."
+      },
+      {
+        "id": "TRP-24120-a2",
+        "at": "2026-09-27T15:20:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-147 · 10-wheeler."
+      },
+      {
+        "id": "TRP-24120-a3",
+        "at": "2026-09-29T05:40:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "cancelled",
+        "message": "Trip cancelled: Vehicle broke down before departure. Note: Gearbox failure at the yard. Rebooked as TRP-24142."
+      }
+    ],
+    "cancelReason": "Vehicle broke down before departure",
+    "notes": "",
+    "createdAt": "2026-09-27T15:00:00+05:00",
+    "updatedAt": "2026-09-29T05:40:00+05:00"
+  },
+  {
+    "id": "TRP-24121",
+    "reference": "PO-55120",
+    "status": "in_transit",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Insulin pens and vaccines, insulated cartons",
+      "weightKg": 6200,
+      "pallets": 14,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Kestrel Pharma — Korangi plant",
+        "address": "Plot 44, Sector 15, Korangi Industrial Area, Karachi",
+        "contactName": "Amna Tahir",
+        "contactPhone": "0300-0000118",
+        "windowStart": "2026-09-28T05:00:00+05:00",
+        "windowEnd": "2026-09-28T07:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T05:20:00+05:00",
+        "departedAt": "2026-09-28T06:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Kestrel Pharma — Islamabad depot",
+        "address": "Street 3, I-10/3 Industrial Area, Islamabad",
+        "contactName": "Fatima Noreen",
+        "contactPhone": "0300-0000120",
+        "windowStart": "2026-09-29T13:00:00+05:00",
+        "windowEnd": "2026-09-29T16:00:00+05:00",
+        "eta": "2026-09-29T14:50:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-35",
+    "driverId": "D-01",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:26:00+05:00",
+      "locationLabel": "M-2 motorway, near Pindi Bhattian",
+      "speedKph": 64
+    },
+    "temperatureLog": [
+      {
+        "at": "2026-09-28T06:45:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T07:00:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-28T07:15:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T07:30:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T07:45:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T08:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T08:15:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-28T08:30:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-28T08:45:00+05:00",
+        "celsius": 5.6
+      },
+      {
+        "at": "2026-09-28T09:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T09:15:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T09:30:00+05:00",
+        "celsius": 5.7
+      },
+      {
+        "at": "2026-09-28T09:45:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-28T10:00:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-28T10:15:00+05:00",
+        "celsius": 5.8
+      },
+      {
+        "at": "2026-09-28T10:30:00+05:00",
+        "celsius": 5.6
+      },
+      {
+        "at": "2026-09-28T10:45:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T11:00:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-28T11:15:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-28T11:30:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-28T11:45:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-28T12:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T12:15:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T12:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T12:45:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T13:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T13:15:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T13:30:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T13:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-28T14:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T14:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T14:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T14:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T15:00:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-28T15:15:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T15:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T15:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T16:00:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-28T16:15:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T16:30:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T16:45:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-28T17:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T17:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T17:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T17:45:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T18:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-28T18:15:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T18:30:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-28T18:45:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T19:00:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-28T19:15:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T19:30:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T19:45:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-28T20:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-28T20:15:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-28T20:30:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-28T20:45:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T21:00:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T21:15:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-28T21:30:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T21:45:00+05:00",
+        "celsius": 5.3
+      },
+      {
+        "at": "2026-09-28T22:00:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-28T22:15:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T22:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-28T22:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-28T23:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T23:15:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-28T23:30:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-28T23:45:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T00:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T00:15:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T00:30:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-29T00:45:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-29T01:00:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T01:15:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T01:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-29T01:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-29T02:00:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T02:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T02:30:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-29T02:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-29T03:00:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T03:15:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-29T03:30:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-29T03:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-29T04:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T04:15:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T04:30:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T04:45:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T05:00:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T05:15:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T05:30:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T05:45:00+05:00",
+        "celsius": 5.5
+      },
+      {
+        "at": "2026-09-29T06:00:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T06:15:00+05:00",
+        "celsius": 5.3
+      },
+      {
+        "at": "2026-09-29T06:30:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T06:45:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T07:00:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T07:15:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T07:30:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T07:45:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-29T08:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-29T08:45:00+05:00",
+        "celsius": 5.2
+      },
+      {
+        "at": "2026-09-29T09:00:00+05:00",
+        "celsius": 5.4
+      },
+      {
+        "at": "2026-09-29T09:15:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T09:30:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T09:45:00+05:00",
+        "celsius": 8.3
+      },
+      {
+        "at": "2026-09-29T10:00:00+05:00",
+        "celsius": 8.9
+      },
+      {
+        "at": "2026-09-29T10:15:00+05:00",
+        "celsius": 9.2
+      },
+      {
+        "at": "2026-09-29T10:30:00+05:00",
+        "celsius": 9.4
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24121-a1",
+        "at": "2026-09-27T15:40:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55120."
+      },
+      {
+        "id": "TRP-24121-a2",
+        "at": "2026-09-27T16:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-135 · Reefer 22 ft and driver Naveed Khattak."
+      },
+      {
+        "id": "TRP-24121-a3",
+        "at": "2026-09-28T05:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Kestrel Pharma — Korangi plant."
+      },
+      {
+        "id": "TRP-24121-a4",
+        "at": "2026-09-28T06:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24121-a5",
+        "at": "2026-09-28T06:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Kestrel Pharma — Korangi plant."
+      },
+      {
+        "id": "TRP-24121-a6",
+        "at": "2026-09-29T09:45:00+05:00",
+        "actor": "System",
+        "kind": "alert",
+        "message": "Temperature 8.3 °C, above the 8 °C limit."
+      },
+      {
+        "id": "TRP-24121-a7",
+        "at": "2026-09-29T10:15:00+05:00",
+        "actor": "System",
+        "kind": "alert",
+        "message": "Temperature still out of range: 9.2 °C."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "Keep the reefer at 5 °C. Don’t open the doors before the depot.",
+    "createdAt": "2026-09-27T15:40:00+05:00",
+    "updatedAt": "2026-09-29T10:15:00+05:00"
+  },
+  {
+    "id": "TRP-24122",
+    "reference": "PO-12102",
+    "status": "delivered",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "Water dispensers and irons",
+      "weightKg": 5800,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Lantern — Karachi warehouse",
+        "address": "B-41, SITE Area, Karachi",
+        "contactName": "Rizwan Khalil",
+        "contactPhone": "0300-0000143",
+        "windowStart": "2026-09-28T09:00:00+05:00",
+        "windowEnd": "2026-09-28T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T09:05:00+05:00",
+        "departedAt": "2026-09-28T09:55:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Lantern — Hyderabad depot",
+        "address": "Auto Bahn Road, Hyderabad",
+        "contactName": "Samia Hayat",
+        "contactPhone": "0300-0000144",
+        "windowStart": "2026-09-28T12:30:00+05:00",
+        "windowEnd": "2026-09-28T14:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T12:50:00+05:00",
+        "departedAt": "2026-09-28T13:40:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Lantern — Sukkur depot",
+        "address": "SITE Area, Sukkur",
+        "contactName": "Yousaf Gill",
+        "contactPhone": "0300-0000145",
+        "windowStart": "2026-09-28T19:00:00+05:00",
+        "windowEnd": "2026-09-28T21:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T19:55:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-26",
+    "driverId": "D-27",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24122-a1",
+        "at": "2026-09-27T16:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12102."
+      },
+      {
+        "id": "TRP-24122-a2",
+        "at": "2026-09-27T17:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-126 · Hino 22 ft and driver Anwar Lashari."
+      },
+      {
+        "id": "TRP-24122-a3",
+        "at": "2026-09-28T09:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern — Karachi warehouse."
+      },
+      {
+        "id": "TRP-24122-a4",
+        "at": "2026-09-28T09:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24122-a5",
+        "at": "2026-09-28T09:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern — Karachi warehouse."
+      },
+      {
+        "id": "TRP-24122-a6",
+        "at": "2026-09-28T12:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern — Hyderabad depot."
+      },
+      {
+        "id": "TRP-24122-a7",
+        "at": "2026-09-28T13:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern — Hyderabad depot."
+      },
+      {
+        "id": "TRP-24122-a8",
+        "at": "2026-09-28T19:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Lantern — Sukkur depot."
+      },
+      {
+        "id": "TRP-24122-a9",
+        "at": "2026-09-28T20:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T16:40:00+05:00",
+    "updatedAt": "2026-09-28T20:30:00+05:00"
+  },
+  {
+    "id": "TRP-24123",
+    "reference": "PO-90462",
+    "status": "delivered",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Snacks, mixed cartons",
+      "weightKg": 1700,
+      "pallets": 4,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Saffron Hill — Karachi DC",
+        "address": "Plot 19, Sector 6, Korangi Industrial Area, Karachi",
+        "contactName": "Salman Qadir",
+        "contactPhone": "0300-0000125",
+        "windowStart": "2026-09-28T07:00:00+05:00",
+        "windowEnd": "2026-09-28T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T07:10:00+05:00",
+        "departedAt": "2026-09-28T07:45:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Retail partner — Gulshan-e-Iqbal",
+        "address": "Block 13-D, Gulshan-e-Iqbal, Karachi",
+        "contactName": "Maham Rauf",
+        "contactPhone": "0300-0000130",
+        "windowStart": "2026-09-28T08:30:00+05:00",
+        "windowEnd": "2026-09-28T09:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T08:50:00+05:00",
+        "departedAt": "2026-09-28T09:10:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Retail partner — Clifton",
+        "address": "Block 5, Clifton, Karachi",
+        "contactName": "Zeeshan Haider",
+        "contactPhone": "0300-0000131",
+        "windowStart": "2026-09-28T09:30:00+05:00",
+        "windowEnd": "2026-09-28T10:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-28T10:05:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-02",
+    "driverId": "D-38",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24123-a1",
+        "at": "2026-09-27T17:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90462."
+      },
+      {
+        "id": "TRP-24123-a2",
+        "at": "2026-09-27T17:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-102 · Shehzore (light truck) and driver Rehmat Ali Chandio."
+      },
+      {
+        "id": "TRP-24123-a3",
+        "at": "2026-09-28T07:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill — Karachi DC."
+      },
+      {
+        "id": "TRP-24123-a4",
+        "at": "2026-09-28T07:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24123-a5",
+        "at": "2026-09-28T07:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill — Karachi DC."
+      },
+      {
+        "id": "TRP-24123-a6",
+        "at": "2026-09-28T08:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Retail partner — Gulshan-e-Iqbal."
+      },
+      {
+        "id": "TRP-24123-a7",
+        "at": "2026-09-28T09:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Retail partner — Gulshan-e-Iqbal."
+      },
+      {
+        "id": "TRP-24123-a8",
+        "at": "2026-09-28T10:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Retail partner — Clifton."
+      },
+      {
+        "id": "TRP-24123-a9",
+        "at": "2026-09-28T10:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-27T17:30:00+05:00",
+    "updatedAt": "2026-09-28T10:40:00+05:00"
+  },
+  {
+    "id": "TRP-24124",
+    "reference": "PO-70402",
+    "status": "scheduled",
+    "clientId": "CL-05",
+    "cargo": {
+      "category": "textiles",
+      "description": "Cotton yarn, bales",
+      "weightKg": 8000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "faisalabad",
+        "siteName": "Juniper Textiles — Faisalabad mill",
+        "address": "M-3 Industrial City, Sahianwala, Faisalabad",
+        "contactName": "Mehreen Aziz",
+        "contactPhone": "0300-0000138",
+        "windowStart": "2026-09-29T08:00:00+05:00",
+        "windowEnd": "2026-09-29T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Juniper — Lahore warehouse",
+        "address": "Multan Road, Lahore",
+        "contactName": "Saima Javed",
+        "contactPhone": "0300-0000140",
+        "windowStart": "2026-09-29T14:00:00+05:00",
+        "windowEnd": "2026-09-29T17:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-17",
+    "driverId": "D-13",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24124-a1",
+        "at": "2026-09-28T09:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-70402."
+      },
+      {
+        "id": "TRP-24124-a2",
+        "at": "2026-09-28T09:20:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-117 · Hino 22 ft and driver Akram Sial."
+      },
+      {
+        "id": "TRP-24124-a3",
+        "at": "2026-09-29T07:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "note",
+        "message": "Driver called at 07:00: leaving Lahore now."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T09:00:00+05:00",
+    "updatedAt": "2026-09-29T07:05:00+05:00"
+  },
+  {
+    "id": "TRP-24125",
+    "reference": "PO-70388",
+    "status": "in_transit",
+    "clientId": "CL-05",
+    "cargo": {
+      "category": "textiles",
+      "description": "Denim fabric rolls for export",
+      "weightKg": 18000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "sialkot",
+        "siteName": "Juniper Textiles — Sialkot unit",
+        "address": "Small Industries Estate, Sialkot",
+        "contactName": "Adil Munir",
+        "contactPhone": "0300-0000139",
+        "windowStart": "2026-09-29T03:00:00+05:00",
+        "windowEnd": "2026-09-29T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T03:20:00+05:00",
+        "departedAt": "2026-09-29T04:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Juniper — export yard, Port Qasim",
+        "address": "Port Qasim, Karachi",
+        "contactName": "Farhan Ghani",
+        "contactPhone": "0300-0000141",
+        "windowStart": "2026-09-30T08:00:00+05:00",
+        "windowEnd": "2026-09-30T14:00:00+05:00",
+        "eta": "2026-09-30T09:30:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-49",
+    "driverId": "D-10",
+    "tracking": {
+      "lastPingAt": "2026-09-29T09:20:00+05:00",
+      "locationLabel": "M-3 motorway, 140 km from Lahore",
+      "speedKph": 56
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [
+      {
+        "key": "tracking_stale:trip",
+        "ruleId": "tracking_stale",
+        "stopId": null,
+        "actionId": "contact_driver",
+        "outcome": "Driver reached, phone or GPS problem, location confirmed",
+        "note": "GPS unit lost power at a fuel stop. Truck is past Abdul Hakeem and on schedule. Workshop to check the unit in Karachi.",
+        "by": "Hina Tariq · Dispatch",
+        "at": "2026-09-29T10:18:00+05:00"
+      }
+    ],
+    "activity": [
+      {
+        "id": "TRP-24125-a1",
+        "at": "2026-09-28T10:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-70388."
+      },
+      {
+        "id": "TRP-24125-a2",
+        "at": "2026-09-28T11:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-149 · 40 ft trailer and driver Sajid Marwat."
+      },
+      {
+        "id": "TRP-24125-a3",
+        "at": "2026-09-29T03:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Juniper Textiles — Sialkot unit."
+      },
+      {
+        "id": "TRP-24125-a4",
+        "at": "2026-09-29T04:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24125-a5",
+        "at": "2026-09-29T04:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Juniper Textiles — Sialkot unit."
+      },
+      {
+        "id": "TRP-24125-a6",
+        "at": "2026-09-29T10:05:00+05:00",
+        "actor": "System",
+        "kind": "alert",
+        "message": "No position from the truck for 45 min."
+      },
+      {
+        "id": "TRP-24125-a7",
+        "at": "2026-09-29T10:18:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "exception",
+        "message": "Contact driver (Tracking lost): Driver reached, phone or GPS problem, location confirmed. Note: GPS unit lost power at a fuel stop. Truck is past Abdul Hakeem and on schedule. Workshop to check the unit in Karachi."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T10:40:00+05:00",
+    "updatedAt": "2026-09-29T10:18:00+05:00"
+  },
+  {
+    "id": "TRP-24126",
+    "reference": "PO-12093",
+    "status": "in_transit",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "Refrigerators and washing machines",
+      "weightKg": 7400,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Lantern — Karachi warehouse",
+        "address": "B-41, SITE Area, Karachi",
+        "contactName": "Rizwan Khalil",
+        "contactPhone": "0300-0000143",
+        "windowStart": "2026-09-29T04:00:00+05:00",
+        "windowEnd": "2026-09-29T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T04:10:00+05:00",
+        "departedAt": "2026-09-29T04:55:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Lantern — Hyderabad depot",
+        "address": "Auto Bahn Road, Hyderabad",
+        "contactName": "Samia Hayat",
+        "contactPhone": "0300-0000144",
+        "windowStart": "2026-09-29T07:30:00+05:00",
+        "windowEnd": "2026-09-29T09:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T08:05:00+05:00",
+        "departedAt": "2026-09-29T08:55:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Lantern — Sukkur depot",
+        "address": "SITE Area, Sukkur",
+        "contactName": "Yousaf Gill",
+        "contactPhone": "0300-0000145",
+        "windowStart": "2026-09-29T13:00:00+05:00",
+        "windowEnd": "2026-09-29T15:00:00+05:00",
+        "eta": "2026-09-29T15:35:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-11",
+    "driverId": "D-03",
+    "tracking": {
+      "lastPingAt": "2026-09-29T09:35:00+05:00",
+      "locationLabel": "N-5 highway, near Hala",
+      "speedKph": 55
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24126-a1",
+        "at": "2026-09-28T11:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12093."
+      },
+      {
+        "id": "TRP-24126-a2",
+        "at": "2026-09-28T11:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-111 · Hino 22 ft and driver Aslam Jatoi."
+      },
+      {
+        "id": "TRP-24126-a3",
+        "at": "2026-09-29T04:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern — Karachi warehouse."
+      },
+      {
+        "id": "TRP-24126-a4",
+        "at": "2026-09-29T04:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24126-a5",
+        "at": "2026-09-29T04:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern — Karachi warehouse."
+      },
+      {
+        "id": "TRP-24126-a6",
+        "at": "2026-09-29T08:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern — Hyderabad depot."
+      },
+      {
+        "id": "TRP-24126-a7",
+        "at": "2026-09-29T08:55:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern — Hyderabad depot."
+      },
+      {
+        "id": "TRP-24126-a8",
+        "at": "2026-09-29T09:20:00+05:00",
+        "actor": "System",
+        "kind": "eta",
+        "message": "ETA for Sukkur updated to 15:35 (was 14:20). Slow traffic after Hyderabad."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T11:30:00+05:00",
+    "updatedAt": "2026-09-29T09:20:00+05:00"
+  },
+  {
+    "id": "TRP-24127",
+    "reference": "PO-55181",
+    "status": "cancelled",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Vaccines, insulated cartons",
+      "weightKg": 3000,
+      "pallets": 8,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Kestrel Pharma — Lahore warehouse",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Nasir Jamal",
+        "contactPhone": "0300-0000119",
+        "windowStart": "2026-09-30T05:00:00+05:00",
+        "windowEnd": "2026-09-30T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Kestrel Pharma — Islamabad depot",
+        "address": "Street 3, I-10/3 Industrial Area, Islamabad",
+        "contactName": "Fatima Noreen",
+        "contactPhone": "0300-0000120",
+        "windowStart": "2026-09-30T11:00:00+05:00",
+        "windowEnd": "2026-09-30T13:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24127-a1",
+        "at": "2026-09-28T11:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55181."
+      },
+      {
+        "id": "TRP-24127-a2",
+        "at": "2026-09-29T09:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "cancelled",
+        "message": "Trip cancelled: Client cancelled the order."
+      }
+    ],
+    "cancelReason": "Client cancelled the order",
+    "notes": "",
+    "createdAt": "2026-09-28T11:50:00+05:00",
+    "updatedAt": "2026-09-29T09:40:00+05:00"
+  },
+  {
+    "id": "TRP-24128",
+    "reference": "PO-12140",
+    "status": "in_transit",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "Air conditioners and microwave ovens",
+      "weightKg": 6800,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Lantern Home Appliances — Lahore factory",
+        "address": "Plot 70, Sundar Industrial Estate, Lahore",
+        "contactName": "Naila Qamar",
+        "contactPhone": "0300-0000142",
+        "windowStart": "2026-09-29T05:30:00+05:00",
+        "windowEnd": "2026-09-29T06:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T05:40:00+05:00",
+        "departedAt": "2026-09-29T06:15:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Lantern — Islamabad depot",
+        "address": "Street 5, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Rabia Kanwal",
+        "contactPhone": "0300-0000146",
+        "windowStart": "2026-09-29T11:00:00+05:00",
+        "windowEnd": "2026-09-29T12:30:00+05:00",
+        "eta": "2026-09-29T12:05:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "peshawar",
+        "siteName": "Lantern — Peshawar depot",
+        "address": "Hayatabad Industrial Estate, Peshawar",
+        "contactName": "Jawad Hameed",
+        "contactPhone": "0300-0000147",
+        "windowStart": "2026-09-29T15:00:00+05:00",
+        "windowEnd": "2026-09-29T17:00:00+05:00",
+        "eta": "2026-09-29T16:10:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-15",
+    "driverId": "D-12",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:28:00+05:00",
+      "locationLabel": "M-2 motorway, near Kallar Kahar",
+      "speedKph": 47
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24128-a1",
+        "at": "2026-09-28T12:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12140."
+      },
+      {
+        "id": "TRP-24128-a2",
+        "at": "2026-09-28T12:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-115 · Hino 22 ft and driver Javed Baloch."
+      },
+      {
+        "id": "TRP-24128-a3",
+        "at": "2026-09-29T05:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Lantern Home Appliances — Lahore factory."
+      },
+      {
+        "id": "TRP-24128-a4",
+        "at": "2026-09-29T06:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24128-a5",
+        "at": "2026-09-29T06:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Lantern Home Appliances — Lahore factory."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T12:20:00+05:00",
+    "updatedAt": "2026-09-29T06:15:00+05:00"
+  },
+  {
+    "id": "TRP-24129",
+    "reference": "PO-18290",
+    "status": "scheduled",
+    "clientId": "CL-10",
+    "cargo": {
+      "category": "steel",
+      "description": "Steel rebar bundles",
+      "weightKg": 22000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Riverstone — Lahore yard",
+        "address": "Ferozepur Road, Lahore",
+        "contactName": "Asad Mumtaz",
+        "contactPhone": "0300-0000161",
+        "windowStart": "2026-09-30T09:00:00+05:00",
+        "windowEnd": "2026-09-30T11:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Riverstone — Islamabad yard",
+        "address": "Industrial Triangle, Kahuta Road, Islamabad",
+        "contactName": "Gulnaz Bano",
+        "contactPhone": "0300-0000162",
+        "windowStart": "2026-09-30T17:00:00+05:00",
+        "windowEnd": "2026-09-30T21:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-51",
+    "driverId": "D-19",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24129-a1",
+        "at": "2026-09-28T12:45:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-18290."
+      },
+      {
+        "id": "TRP-24129-a2",
+        "at": "2026-09-28T13:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-151 · 40 ft trailer and driver Yasir Qureshi."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T12:45:00+05:00",
+    "updatedAt": "2026-09-28T13:05:00+05:00"
+  },
+  {
+    "id": "TRP-24130",
+    "reference": "PO-81526",
+    "status": "in_transit",
+    "clientId": "CL-08",
+    "cargo": {
+      "category": "beverages",
+      "description": "Soft drinks, 1.5 L bottles",
+      "weightKg": 9500,
+      "pallets": 22,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Northgate Beverages — Lahore bottling plant",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Iqra Saleem",
+        "contactPhone": "0300-0000152",
+        "windowStart": "2026-09-29T06:00:00+05:00",
+        "windowEnd": "2026-09-29T07:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T06:10:00+05:00",
+        "departedAt": "2026-09-29T07:20:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Northgate — Islamabad DC",
+        "address": "Street 9, I-10/3 Industrial Area, Islamabad",
+        "contactName": "Haris Mehmood",
+        "contactPhone": "0300-0000153",
+        "windowStart": "2026-09-29T12:30:00+05:00",
+        "windowEnd": "2026-09-29T15:00:00+05:00",
+        "eta": "2026-09-29T12:55:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-13",
+    "driverId": "D-07",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:27:00+05:00",
+      "locationLabel": "M-2 motorway, near Bhera",
+      "speedKph": 63
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24130-a1",
+        "at": "2026-09-28T13:10:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-81526."
+      },
+      {
+        "id": "TRP-24130-a2",
+        "at": "2026-09-28T13:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-113 · Hino 22 ft and driver Zafar Bhatti."
+      },
+      {
+        "id": "TRP-24130-a3",
+        "at": "2026-09-29T06:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Northgate Beverages — Lahore bottling plant."
+      },
+      {
+        "id": "TRP-24130-a4",
+        "at": "2026-09-29T07:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Northgate Beverages — Lahore bottling plant."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T13:10:00+05:00",
+    "updatedAt": "2026-09-29T07:20:00+05:00"
+  },
+  {
+    "id": "TRP-24131",
+    "reference": "PO-90412",
+    "status": "in_transit",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Biscuits and snacks, cartons",
+      "weightKg": 9000,
+      "pallets": 20,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "islamabad",
+        "siteName": "Saffron Hill — Islamabad DC",
+        "address": "Street 11, I-9/3 Industrial Area, Islamabad",
+        "contactName": "Rehana Kausar",
+        "contactPhone": "0300-0000128",
+        "windowStart": "2026-09-29T05:00:00+05:00",
+        "windowEnd": "2026-09-29T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T05:10:00+05:00",
+        "departedAt": "2026-09-29T05:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "peshawar",
+        "siteName": "Saffron Hill — Peshawar DC",
+        "address": "Ring Road, Peshawar",
+        "contactName": "Tariq Jamil Awan",
+        "contactPhone": "0300-0000129",
+        "windowStart": "2026-09-29T08:30:00+05:00",
+        "windowEnd": "2026-09-29T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-10",
+    "driverId": "D-02",
+    "tracking": {
+      "lastPingAt": "2026-09-29T07:55:00+05:00",
+      "locationLabel": "M-1 motorway, near Attock",
+      "speedKph": 58
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24131-a1",
+        "at": "2026-09-28T14:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90412."
+      },
+      {
+        "id": "TRP-24131-a2",
+        "at": "2026-09-28T14:25:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-110 · Hino 22 ft and driver Rashid Mehmood."
+      },
+      {
+        "id": "TRP-24131-a3",
+        "at": "2026-09-29T05:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill — Islamabad DC."
+      },
+      {
+        "id": "TRP-24131-a4",
+        "at": "2026-09-29T05:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24131-a5",
+        "at": "2026-09-29T05:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill — Islamabad DC."
+      },
+      {
+        "id": "TRP-24131-a6",
+        "at": "2026-09-29T08:40:00+05:00",
+        "actor": "System",
+        "kind": "alert",
+        "message": "No position from the truck for 45 min."
+      },
+      {
+        "id": "TRP-24131-a7",
+        "at": "2026-09-29T09:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "note",
+        "message": "Called the driver twice, no answer."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T14:05:00+05:00",
+    "updatedAt": "2026-09-29T09:05:00+05:00"
+  },
+  {
+    "id": "TRP-24132",
+    "reference": "PO-12160",
+    "status": "cancelled",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "Refrigerators",
+      "weightKg": 5000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Lantern — Karachi warehouse",
+        "address": "B-41, SITE Area, Karachi",
+        "contactName": "Rizwan Khalil",
+        "contactPhone": "0300-0000143",
+        "windowStart": "2026-09-30T07:00:00+05:00",
+        "windowEnd": "2026-09-30T09:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Lantern — Hyderabad depot",
+        "address": "Auto Bahn Road, Hyderabad",
+        "contactName": "Samia Hayat",
+        "contactPhone": "0300-0000144",
+        "windowStart": "2026-09-30T11:00:00+05:00",
+        "windowEnd": "2026-09-30T13:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24132-a1",
+        "at": "2026-09-28T14:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12160."
+      },
+      {
+        "id": "TRP-24132-a2",
+        "at": "2026-09-29T08:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "cancelled",
+        "message": "Trip cancelled: Consignee site closed. Note: The Hyderabad depot is closed for a stock count on 30 Sep."
+      }
+    ],
+    "cancelReason": "Consignee site closed",
+    "notes": "",
+    "createdAt": "2026-09-28T14:30:00+05:00",
+    "updatedAt": "2026-09-29T08:50:00+05:00"
+  },
+  {
+    "id": "TRP-24133",
+    "reference": "PO-90477",
+    "status": "in_transit",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Cooking oil and ghee, cartons",
+      "weightKg": 8200,
+      "pallets": 18,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Saffron Hill Foods — Lahore factory",
+        "address": "14 km Multan Road, Lahore",
+        "contactName": "Bushra Naz",
+        "contactPhone": "0300-0000124",
+        "windowStart": "2026-09-29T05:00:00+05:00",
+        "windowEnd": "2026-09-29T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T05:05:00+05:00",
+        "departedAt": "2026-09-29T06:05:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "faisalabad",
+        "siteName": "Saffron Hill — Faisalabad DC",
+        "address": "Sargodha Road, Faisalabad",
+        "contactName": "Hira Shahzad",
+        "contactPhone": "0300-0000126",
+        "windowStart": "2026-09-29T08:00:00+05:00",
+        "windowEnd": "2026-09-29T09:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T09:10:00+05:00",
+        "departedAt": "2026-09-29T10:05:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Saffron Hill — Multan DC",
+        "address": "Vehari Road, Multan",
+        "contactName": "Omer Saeed",
+        "contactPhone": "0300-0000127",
+        "windowStart": "2026-09-29T12:00:00+05:00",
+        "windowEnd": "2026-09-29T14:00:00+05:00",
+        "eta": "2026-09-29T14:25:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-14",
+    "driverId": "D-09",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:29:00+05:00",
+      "locationLabel": "M-4 motorway, near Gojra",
+      "speedKph": 61
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [
+      {
+        "key": "late_risk:S3",
+        "ruleId": "late_risk",
+        "stopId": "S3",
+        "actionId": "notify_client",
+        "outcome": "Client accepted the new ETA",
+        "note": "Spoke to the Multan DC (Amna Tahir). They’ll keep the receiving bay open until 15:00.",
+        "by": "Hina Tariq · Dispatch",
+        "at": "2026-09-29T10:12:00+05:00"
+      }
+    ],
+    "activity": [
+      {
+        "id": "TRP-24133-a1",
+        "at": "2026-09-28T15:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90477."
+      },
+      {
+        "id": "TRP-24133-a2",
+        "at": "2026-09-28T15:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-114 · Hino 22 ft and driver Nadeem Solangi."
+      },
+      {
+        "id": "TRP-24133-a3",
+        "at": "2026-09-29T05:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill Foods — Lahore factory."
+      },
+      {
+        "id": "TRP-24133-a4",
+        "at": "2026-09-29T06:00:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24133-a5",
+        "at": "2026-09-29T06:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill Foods — Lahore factory."
+      },
+      {
+        "id": "TRP-24133-a6",
+        "at": "2026-09-29T09:10:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill — Faisalabad DC."
+      },
+      {
+        "id": "TRP-24133-a7",
+        "at": "2026-09-29T10:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill — Faisalabad DC."
+      },
+      {
+        "id": "TRP-24133-a8",
+        "at": "2026-09-29T10:06:00+05:00",
+        "actor": "System",
+        "kind": "eta",
+        "message": "ETA for Multan updated to 14:25 (was 13:40). Unloading in Faisalabad took longer."
+      },
+      {
+        "id": "TRP-24133-a9",
+        "at": "2026-09-29T10:12:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "exception",
+        "message": "Notify client (Late arrival risk): Client accepted the new ETA. Note: Spoke to the Multan DC (Amna Tahir). They’ll keep the receiving bay open until 15:00."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T15:00:00+05:00",
+    "updatedAt": "2026-09-29T10:12:00+05:00"
+  },
+  {
+    "id": "TRP-24134",
+    "reference": "PO-31899",
+    "status": "delivered",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Fresh milk, 1 L packs",
+      "weightKg": 3100,
+      "pallets": 8,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "hyderabad",
+        "siteName": "Two Oaks Dairy — Kotri plant",
+        "address": "Plot 31, Kotri Industrial Area, Jamshoro",
+        "contactName": "Imran Ali",
+        "contactPhone": "0300-0000111",
+        "windowStart": "2026-09-29T04:30:00+05:00",
+        "windowEnd": "2026-09-29T05:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T04:35:00+05:00",
+        "departedAt": "2026-09-29T05:20:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Two Oaks — Karachi DC",
+        "address": "Plot 8, Sector 23, Korangi Industrial Area, Karachi",
+        "contactName": "Hassan Zubair",
+        "contactPhone": "0300-0000113",
+        "windowStart": "2026-09-29T08:00:00+05:00",
+        "windowEnd": "2026-09-29T09:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T08:40:00+05:00",
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-33",
+    "driverId": "D-37",
+    "tracking": null,
+    "temperatureLog": [
+      {
+        "at": "2026-09-29T05:30:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T05:45:00+05:00",
+        "celsius": 3.5
+      },
+      {
+        "at": "2026-09-29T06:00:00+05:00",
+        "celsius": 3.7
+      },
+      {
+        "at": "2026-09-29T06:15:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T06:30:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T06:45:00+05:00",
+        "celsius": 3.4
+      },
+      {
+        "at": "2026-09-29T07:00:00+05:00",
+        "celsius": 3.6
+      },
+      {
+        "at": "2026-09-29T07:15:00+05:00",
+        "celsius": 3.7
+      },
+      {
+        "at": "2026-09-29T07:30:00+05:00",
+        "celsius": 3.5
+      },
+      {
+        "at": "2026-09-29T07:45:00+05:00",
+        "celsius": 3.5
+      },
+      {
+        "at": "2026-09-29T08:00:00+05:00",
+        "celsius": 3.2
+      },
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": 3.1
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": 3.1
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "uploaded"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24134-a1",
+        "at": "2026-09-28T15:15:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31899."
+      },
+      {
+        "id": "TRP-24134-a2",
+        "at": "2026-09-28T15:35:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-133 · Reefer Mazda 16 ft and driver Asghar Dogar."
+      },
+      {
+        "id": "TRP-24134-a3",
+        "at": "2026-09-29T04:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks Dairy — Kotri plant."
+      },
+      {
+        "id": "TRP-24134-a4",
+        "at": "2026-09-29T05:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24134-a5",
+        "at": "2026-09-29T05:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Two Oaks Dairy — Kotri plant."
+      },
+      {
+        "id": "TRP-24134-a6",
+        "at": "2026-09-29T08:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "delivered",
+        "message": "Delivered at Two Oaks — Karachi DC."
+      },
+      {
+        "id": "TRP-24134-a7",
+        "at": "2026-09-29T09:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Proof of delivery uploaded."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T15:15:00+05:00",
+    "updatedAt": "2026-09-29T09:15:00+05:00"
+  },
+  {
+    "id": "TRP-24135",
+    "reference": "PO-23455",
+    "status": "scheduled",
+    "clientId": "CL-09",
+    "cargo": {
+      "category": "frozen",
+      "description": "Frozen parathas and kebabs",
+      "weightKg": 6000,
+      "pallets": 14,
+      "tempRangeC": {
+        "min": -22,
+        "max": -15
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Blue Crane Frozen Foods — Karachi plant",
+        "address": "Sector 12-C, North Karachi Industrial Area, Karachi",
+        "contactName": "Rukhsana Bibi",
+        "contactPhone": "0300-0000156",
+        "windowStart": "2026-09-29T14:00:00+05:00",
+        "windowEnd": "2026-09-29T15:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Blue Crane — Hyderabad cold store",
+        "address": "SITE Area, Hyderabad",
+        "contactName": "Mudassar Latif",
+        "contactPhone": "0300-0000157",
+        "windowStart": "2026-09-29T18:00:00+05:00",
+        "windowEnd": "2026-09-29T19:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Blue Crane — Sukkur cold store",
+        "address": "SITE Area, Sukkur",
+        "contactName": "Shazia Parveen",
+        "contactPhone": "0300-0000158",
+        "windowStart": "2026-09-30T02:00:00+05:00",
+        "windowEnd": "2026-09-30T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-38",
+    "driverId": "D-18",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24135-a1",
+        "at": "2026-09-28T15:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-23455."
+      },
+      {
+        "id": "TRP-24135-a2",
+        "at": "2026-09-28T15:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-138 · Reefer 22 ft and driver Liaquat Hussain."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "Sukkur cold store opens at 02:00. Call Maham at the gate.",
+    "createdAt": "2026-09-28T15:30:00+05:00",
+    "updatedAt": "2026-09-28T15:50:00+05:00"
+  },
+  {
+    "id": "TRP-24136",
+    "reference": "PO-55167",
+    "status": "in_transit",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Antibiotic injections and vaccines",
+      "weightKg": 2400,
+      "pallets": 6,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Kestrel Pharma — Lahore warehouse",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Nasir Jamal",
+        "contactPhone": "0300-0000119",
+        "windowStart": "2026-09-29T04:30:00+05:00",
+        "windowEnd": "2026-09-29T05:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T04:40:00+05:00",
+        "departedAt": "2026-09-29T05:20:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "rawalpindi",
+        "siteName": "Kestrel Pharma — Rawat depot",
+        "address": "Rawat Industrial Area, GT Road, Rawalpindi",
+        "contactName": "Danish Kamal",
+        "contactPhone": "0300-0000121",
+        "windowStart": "2026-09-29T11:00:00+05:00",
+        "windowEnd": "2026-09-29T13:00:00+05:00",
+        "eta": "2026-09-29T11:25:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-30",
+    "driverId": "D-33",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:25:00+05:00",
+      "locationLabel": "M-2 motorway, 45 km to Islamabad",
+      "speedKph": 66
+    },
+    "temperatureLog": [
+      {
+        "at": "2026-09-29T05:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T05:45:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-29T06:00:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-29T06:15:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T06:30:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-29T06:45:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-29T07:00:00+05:00",
+        "celsius": 4.2
+      },
+      {
+        "at": "2026-09-29T07:15:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-29T07:30:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T07:45:00+05:00",
+        "celsius": 5.0
+      },
+      {
+        "at": "2026-09-29T08:00:00+05:00",
+        "celsius": 4.6
+      },
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T08:45:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T09:00:00+05:00",
+        "celsius": 4.5
+      },
+      {
+        "at": "2026-09-29T09:15:00+05:00",
+        "celsius": 4.8
+      },
+      {
+        "at": "2026-09-29T09:30:00+05:00",
+        "celsius": 5.1
+      },
+      {
+        "at": "2026-09-29T09:45:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T10:00:00+05:00",
+        "celsius": 4.9
+      },
+      {
+        "at": "2026-09-29T10:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T10:30:00+05:00",
+        "celsius": 4.5
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24136-a1",
+        "at": "2026-09-28T16:00:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55167."
+      },
+      {
+        "id": "TRP-24136-a2",
+        "at": "2026-09-28T16:20:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-130 · Reefer Mazda 16 ft and driver Waseem Nazir."
+      },
+      {
+        "id": "TRP-24136-a3",
+        "at": "2026-09-29T04:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Kestrel Pharma — Lahore warehouse."
+      },
+      {
+        "id": "TRP-24136-a4",
+        "at": "2026-09-29T05:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24136-a5",
+        "at": "2026-09-29T05:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Kestrel Pharma — Lahore warehouse."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T16:00:00+05:00",
+    "updatedAt": "2026-09-29T05:20:00+05:00"
+  },
+  {
+    "id": "TRP-24137",
+    "reference": "PO-60218",
+    "status": "in_transit",
+    "clientId": "CL-07",
+    "cargo": {
+      "category": "fertilizer",
+      "description": "Urea, 50 kg bags",
+      "weightKg": 24000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Palmline Fertilizers — Port Qasim terminal",
+        "address": "Port Qasim, Karachi",
+        "contactName": "Afshan Tariq",
+        "contactPhone": "0300-0000148",
+        "windowStart": "2026-09-29T06:00:00+05:00",
+        "windowEnd": "2026-09-29T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T06:05:00+05:00",
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "multan",
+        "siteName": "Palmline — Multan dealer hub",
+        "address": "Khanewal Road, Multan",
+        "contactName": "Tehmina Riaz",
+        "contactPhone": "0300-0000150",
+        "windowStart": "2026-09-30T06:00:00+05:00",
+        "windowEnd": "2026-09-30T12:00:00+05:00",
+        "eta": "2026-09-30T09:30:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-48",
+    "driverId": "D-05",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:29:00+05:00",
+      "locationLabel": "At Palmline Fertilizers — Port Qasim terminal",
+      "speedKph": 0
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24137-a1",
+        "at": "2026-09-28T16:45:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-60218."
+      },
+      {
+        "id": "TRP-24137-a2",
+        "at": "2026-09-28T17:05:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-148 · 40 ft trailer and driver Irfan Shinwari."
+      },
+      {
+        "id": "TRP-24137-a3",
+        "at": "2026-09-29T06:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Palmline Fertilizers — Port Qasim terminal."
+      },
+      {
+        "id": "TRP-24137-a4",
+        "at": "2026-09-29T08:30:00+05:00",
+        "actor": "Driver app",
+        "kind": "note",
+        "message": "Driver: waiting in the loading queue, 6 trucks ahead."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T16:45:00+05:00",
+    "updatedAt": "2026-09-29T08:30:00+05:00"
+  },
+  {
+    "id": "TRP-24138",
+    "reference": "PO-31877",
+    "status": "in_transit",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Fresh milk and yoghurt, crates",
+      "weightKg": 3000,
+      "pallets": 8,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Two Oaks Dairy — Lahore plant",
+        "address": "Plot 12, Sundar Industrial Estate, Raiwind Road, Lahore",
+        "contactName": "Asma Noor",
+        "contactPhone": "0300-0000112",
+        "windowStart": "2026-09-29T06:00:00+05:00",
+        "windowEnd": "2026-09-29T07:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T06:05:00+05:00",
+        "departedAt": "2026-09-29T06:50:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "gujranwala",
+        "siteName": "Two Oaks — Gujranwala DC",
+        "address": "Industrial Estate, GT Road, Gujranwala",
+        "contactName": "Fahad Iqbal",
+        "contactPhone": "0300-0000114",
+        "windowStart": "2026-09-29T08:00:00+05:00",
+        "windowEnd": "2026-09-29T09:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T08:15:00+05:00",
+        "departedAt": null
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "sialkot",
+        "siteName": "Two Oaks — Sialkot DC",
+        "address": "Small Industries Estate, Sialkot",
+        "contactName": "Uzma Khalid",
+        "contactPhone": "0300-0000115",
+        "windowStart": "2026-09-29T11:30:00+05:00",
+        "windowEnd": "2026-09-29T13:00:00+05:00",
+        "eta": "2026-09-29T12:10:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-28",
+    "driverId": "D-31",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:28:00+05:00",
+      "locationLabel": "At Two Oaks — Gujranwala DC",
+      "speedKph": 0
+    },
+    "temperatureLog": [
+      {
+        "at": "2026-09-29T07:00:00+05:00",
+        "celsius": 3.7
+      },
+      {
+        "at": "2026-09-29T07:15:00+05:00",
+        "celsius": 3.9
+      },
+      {
+        "at": "2026-09-29T07:30:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-29T07:45:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T08:00:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": 3.6
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T08:45:00+05:00",
+        "celsius": 3.5
+      },
+      {
+        "at": "2026-09-29T09:00:00+05:00",
+        "celsius": 3.3
+      },
+      {
+        "at": "2026-09-29T09:15:00+05:00",
+        "celsius": 3.4
+      },
+      {
+        "at": "2026-09-29T09:30:00+05:00",
+        "celsius": 3.5
+      },
+      {
+        "at": "2026-09-29T09:45:00+05:00",
+        "celsius": 3.6
+      },
+      {
+        "at": "2026-09-29T10:00:00+05:00",
+        "celsius": 3.6
+      },
+      {
+        "at": "2026-09-29T10:15:00+05:00",
+        "celsius": 6.3
+      },
+      {
+        "at": "2026-09-29T10:30:00+05:00",
+        "celsius": 6.6
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24138-a1",
+        "at": "2026-09-28T17:20:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31877."
+      },
+      {
+        "id": "TRP-24138-a2",
+        "at": "2026-09-28T17:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-128 · Reefer Mazda 16 ft and driver Kamal Siddiq."
+      },
+      {
+        "id": "TRP-24138-a3",
+        "at": "2026-09-29T06:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks Dairy — Lahore plant."
+      },
+      {
+        "id": "TRP-24138-a4",
+        "at": "2026-09-29T06:45:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24138-a5",
+        "at": "2026-09-29T06:50:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Two Oaks Dairy — Lahore plant."
+      },
+      {
+        "id": "TRP-24138-a6",
+        "at": "2026-09-29T08:15:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks — Gujranwala DC."
+      },
+      {
+        "id": "TRP-24138-a7",
+        "at": "2026-09-29T09:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "note",
+        "message": "Driver: unloading hasn’t started, the receiving bay is busy."
+      },
+      {
+        "id": "TRP-24138-a8",
+        "at": "2026-09-29T10:15:00+05:00",
+        "actor": "System",
+        "kind": "alert",
+        "message": "Temperature 6.3 °C, above the 6 °C limit."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T17:20:00+05:00",
+    "updatedAt": "2026-09-29T10:15:00+05:00"
+  },
+  {
+    "id": "TRP-24139",
+    "reference": "PO-90501",
+    "status": "in_transit",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Snacks and drinks, mixed cartons",
+      "weightKg": 1600,
+      "pallets": 4,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Saffron Hill — Karachi DC",
+        "address": "Plot 19, Sector 6, Korangi Industrial Area, Karachi",
+        "contactName": "Salman Qadir",
+        "contactPhone": "0300-0000125",
+        "windowStart": "2026-09-29T07:00:00+05:00",
+        "windowEnd": "2026-09-29T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T07:05:00+05:00",
+        "departedAt": "2026-09-29T07:40:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Retail partner — Gulshan-e-Iqbal",
+        "address": "Block 13-D, Gulshan-e-Iqbal, Karachi",
+        "contactName": "Maham Rauf",
+        "contactPhone": "0300-0000130",
+        "windowStart": "2026-09-29T08:30:00+05:00",
+        "windowEnd": "2026-09-29T09:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T08:40:00+05:00",
+        "departedAt": "2026-09-29T09:00:00+05:00"
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Retail partner — Clifton",
+        "address": "Block 5, Clifton, Karachi",
+        "contactName": "Zeeshan Haider",
+        "contactPhone": "0300-0000131",
+        "windowStart": "2026-09-29T09:30:00+05:00",
+        "windowEnd": "2026-09-29T10:30:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T10:05:00+05:00",
+        "departedAt": "2026-09-29T10:20:00+05:00"
+      },
+      {
+        "id": "S4",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Retail partner — DHA Phase 6",
+        "address": "Khayaban-e-Ittehad, DHA Phase 6, Karachi",
+        "contactName": "Noreen Akhtar",
+        "contactPhone": "0300-0000132",
+        "windowStart": "2026-09-29T11:00:00+05:00",
+        "windowEnd": "2026-09-29T12:00:00+05:00",
+        "eta": "2026-09-29T11:05:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-01",
+    "driverId": "D-34",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:29:00+05:00",
+      "locationLabel": "Clifton, Karachi",
+      "speedKph": 22
+    },
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24139-a1",
+        "at": "2026-09-28T17:45:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90501."
+      },
+      {
+        "id": "TRP-24139-a2",
+        "at": "2026-09-28T18:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-101 · Shehzore (light truck) and driver Nasir Mahmood."
+      },
+      {
+        "id": "TRP-24139-a3",
+        "at": "2026-09-29T07:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Saffron Hill — Karachi DC."
+      },
+      {
+        "id": "TRP-24139-a4",
+        "at": "2026-09-29T07:35:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24139-a5",
+        "at": "2026-09-29T07:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Saffron Hill — Karachi DC."
+      },
+      {
+        "id": "TRP-24139-a6",
+        "at": "2026-09-29T08:40:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Retail partner — Gulshan-e-Iqbal."
+      },
+      {
+        "id": "TRP-24139-a7",
+        "at": "2026-09-29T09:00:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Retail partner — Gulshan-e-Iqbal."
+      },
+      {
+        "id": "TRP-24139-a8",
+        "at": "2026-09-29T10:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Retail partner — Clifton."
+      },
+      {
+        "id": "TRP-24139-a9",
+        "at": "2026-09-29T10:20:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Retail partner — Clifton."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T17:45:00+05:00",
+    "updatedAt": "2026-09-29T10:20:00+05:00"
+  },
+  {
+    "id": "TRP-24140",
+    "reference": "PO-31902",
+    "status": "in_transit",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Fresh milk, 1 L packs",
+      "weightKg": 3200,
+      "pallets": 8,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "hyderabad",
+        "siteName": "Two Oaks Dairy — Kotri plant",
+        "address": "Plot 31, Kotri Industrial Area, Jamshoro",
+        "contactName": "Imran Ali",
+        "contactPhone": "0300-0000111",
+        "windowStart": "2026-09-29T07:00:00+05:00",
+        "windowEnd": "2026-09-29T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": "2026-09-29T07:05:00+05:00",
+        "departedAt": "2026-09-29T08:05:00+05:00"
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "karachi",
+        "siteName": "Two Oaks — Karachi DC",
+        "address": "Plot 8, Sector 23, Korangi Industrial Area, Karachi",
+        "contactName": "Hassan Zubair",
+        "contactPhone": "0300-0000113",
+        "windowStart": "2026-09-29T10:30:00+05:00",
+        "windowEnd": "2026-09-29T12:00:00+05:00",
+        "eta": "2026-09-29T10:55:00+05:00",
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-29",
+    "driverId": "D-32",
+    "tracking": {
+      "lastPingAt": "2026-09-29T10:27:00+05:00",
+      "locationLabel": "M-9 motorway, 25 km to Karachi",
+      "speedKph": 71
+    },
+    "temperatureLog": [
+      {
+        "at": "2026-09-29T08:15:00+05:00",
+        "celsius": 3.6
+      },
+      {
+        "at": "2026-09-29T08:30:00+05:00",
+        "celsius": 3.7
+      },
+      {
+        "at": "2026-09-29T08:45:00+05:00",
+        "celsius": 3.8
+      },
+      {
+        "at": "2026-09-29T09:00:00+05:00",
+        "celsius": 4.0
+      },
+      {
+        "at": "2026-09-29T09:15:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-29T09:30:00+05:00",
+        "celsius": 4.1
+      },
+      {
+        "at": "2026-09-29T09:45:00+05:00",
+        "celsius": 4.3
+      },
+      {
+        "at": "2026-09-29T10:00:00+05:00",
+        "celsius": 4.4
+      },
+      {
+        "at": "2026-09-29T10:15:00+05:00",
+        "celsius": 4.7
+      },
+      {
+        "at": "2026-09-29T10:30:00+05:00",
+        "celsius": 4.8
+      }
+    ],
+    "documents": {
+      "consignmentNote": "uploaded",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24140-a1",
+        "at": "2026-09-28T18:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31902."
+      },
+      {
+        "id": "TRP-24140-a2",
+        "at": "2026-09-28T18:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-129 · Reefer Mazda 16 ft and driver Adnan Farooq."
+      },
+      {
+        "id": "TRP-24140-a3",
+        "at": "2026-09-29T07:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "arrived",
+        "message": "Arrived at Two Oaks Dairy — Kotri plant."
+      },
+      {
+        "id": "TRP-24140-a4",
+        "at": "2026-09-29T08:00:00+05:00",
+        "actor": "Driver app",
+        "kind": "document",
+        "message": "Consignment note (bilty) uploaded."
+      },
+      {
+        "id": "TRP-24140-a5",
+        "at": "2026-09-29T08:05:00+05:00",
+        "actor": "Driver app",
+        "kind": "departed",
+        "message": "Left Two Oaks Dairy — Kotri plant."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T18:30:00+05:00",
+    "updatedAt": "2026-09-29T08:05:00+05:00"
+  },
+  {
+    "id": "TRP-24141",
+    "reference": "PO-31940",
+    "status": "scheduled",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Yoghurt and cream, crates",
+      "weightKg": 2800,
+      "pallets": 7,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Two Oaks Dairy — Lahore plant",
+        "address": "Plot 12, Sundar Industrial Estate, Raiwind Road, Lahore",
+        "contactName": "Asma Noor",
+        "contactPhone": "0300-0000112",
+        "windowStart": "2026-09-29T16:00:00+05:00",
+        "windowEnd": "2026-09-29T17:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Two Oaks — Islamabad DC",
+        "address": "Street 7, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Kiran Aslam",
+        "contactPhone": "0300-0000116",
+        "windowStart": "2026-09-29T22:00:00+05:00",
+        "windowEnd": "2026-09-29T23:59:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-05",
+    "driverId": "D-14",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24141-a1",
+        "at": "2026-09-28T22:10:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31940."
+      },
+      {
+        "id": "TRP-24141-a2",
+        "at": "2026-09-28T22:30:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-105 · Mazda 20 ft and driver Rafiq Magsi."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-28T22:10:00+05:00",
+    "updatedAt": "2026-09-28T22:30:00+05:00"
+  },
+  {
+    "id": "TRP-24142",
+    "reference": "PO-44920",
+    "status": "scheduled",
+    "clientId": "CL-04",
+    "cargo": {
+      "category": "cement",
+      "description": "Cement, 50 kg bags",
+      "weightKg": 17000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "chakwal",
+        "siteName": "Greyrock Cement — Chakwal plant",
+        "address": "Kallar Kahar Road, Chakwal",
+        "contactName": "Atif Rasheed",
+        "contactPhone": "0300-0000133",
+        "windowStart": "2026-10-01T06:00:00+05:00",
+        "windowEnd": "2026-10-01T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Greyrock — Lahore depot",
+        "address": "Ferozepur Road, Lahore",
+        "contactName": "Lubna Ashraf",
+        "contactPhone": "0300-0000136",
+        "windowStart": "2026-10-01T12:00:00+05:00",
+        "windowEnd": "2026-10-01T16:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24142-a1",
+        "at": "2026-09-29T05:50:00+05:00",
+        "actor": "Bilal Anwar · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-44920."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "Rebooked after the breakdown on the original trip.",
+    "createdAt": "2026-09-29T05:50:00+05:00",
+    "updatedAt": "2026-09-29T05:50:00+05:00"
+  },
+  {
+    "id": "TRP-24143",
+    "reference": "PO-81555",
+    "status": "scheduled",
+    "clientId": "CL-08",
+    "cargo": {
+      "category": "beverages",
+      "description": "Mineral water, 1.5 L bottles",
+      "weightKg": 9000,
+      "pallets": 20,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Northgate Beverages — Lahore bottling plant",
+        "address": "Quaid-e-Azam Industrial Estate, Kot Lakhpat, Lahore",
+        "contactName": "Iqra Saleem",
+        "contactPhone": "0300-0000152",
+        "windowStart": "2026-09-29T18:30:00+05:00",
+        "windowEnd": "2026-09-29T19:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "gujranwala",
+        "siteName": "Northgate — Gujranwala DC",
+        "address": "GT Road, Gujranwala",
+        "contactName": "Sadaf Anjum",
+        "contactPhone": "0300-0000154",
+        "windowStart": "2026-09-29T21:00:00+05:00",
+        "windowEnd": "2026-09-29T23:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-16",
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24143-a1",
+        "at": "2026-09-29T07:40:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-81555."
+      },
+      {
+        "id": "TRP-24143-a2",
+        "at": "2026-09-29T08:00:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-116 · Hino 22 ft. Driver to be confirmed."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T07:40:00+05:00",
+    "updatedAt": "2026-09-29T08:00:00+05:00"
+  },
+  {
+    "id": "TRP-24144",
+    "reference": "PO-60240",
+    "status": "scheduled",
+    "clientId": "CL-07",
+    "cargo": {
+      "category": "fertilizer",
+      "description": "DAP fertilizer, 50 kg bags",
+      "weightKg": 4600,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Palmline Fertilizers — Port Qasim terminal",
+        "address": "Port Qasim, Karachi",
+        "contactName": "Afshan Tariq",
+        "contactPhone": "0300-0000148",
+        "windowStart": "2026-09-30T07:00:00+05:00",
+        "windowEnd": "2026-09-30T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "sukkur",
+        "siteName": "Palmline — Sukkur dealer hub",
+        "address": "Shikarpur Road, Sukkur",
+        "contactName": "Kamran Aslam",
+        "contactPhone": "0300-0000151",
+        "windowStart": "2026-09-30T18:00:00+05:00",
+        "windowEnd": "2026-09-30T21:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-06",
+    "driverId": "D-17",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24144-a1",
+        "at": "2026-09-29T07:55:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-60240."
+      },
+      {
+        "id": "TRP-24144-a2",
+        "at": "2026-09-29T08:15:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-106 · Mazda 20 ft and driver Mushtaq Warraich."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T07:55:00+05:00",
+    "updatedAt": "2026-09-29T08:15:00+05:00"
+  },
+  {
+    "id": "TRP-24145",
+    "reference": "PO-90533",
+    "status": "scheduled",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Tea and powdered milk, cartons",
+      "weightKg": 8500,
+      "pallets": 18,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Saffron Hill Foods — Lahore factory",
+        "address": "14 km Multan Road, Lahore",
+        "contactName": "Bushra Naz",
+        "contactPhone": "0300-0000124",
+        "windowStart": "2026-09-29T12:00:00+05:00",
+        "windowEnd": "2026-09-29T13:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "faisalabad",
+        "siteName": "Saffron Hill — Faisalabad DC",
+        "address": "Sargodha Road, Faisalabad",
+        "contactName": "Hira Shahzad",
+        "contactPhone": "0300-0000126",
+        "windowStart": "2026-09-29T16:30:00+05:00",
+        "windowEnd": "2026-09-29T18:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": null,
+    "driverId": null,
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24145-a1",
+        "at": "2026-09-29T08:15:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90533."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T08:15:00+05:00",
+    "updatedAt": "2026-09-29T08:15:00+05:00"
+  },
+  {
+    "id": "TRP-24146",
+    "reference": "PO-90540",
+    "status": "scheduled",
+    "clientId": "CL-03",
+    "cargo": {
+      "category": "fmcg",
+      "description": "Spices and ready mixes, cartons",
+      "weightKg": 7000,
+      "pallets": 16,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "multan",
+        "siteName": "Saffron Hill — Multan DC",
+        "address": "Vehari Road, Multan",
+        "contactName": "Omer Saeed",
+        "contactPhone": "0300-0000127",
+        "windowStart": "2026-09-29T22:00:00+05:00",
+        "windowEnd": "2026-09-29T23:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Saffron Hill — Islamabad DC",
+        "address": "Street 11, I-9/3 Industrial Area, Islamabad",
+        "contactName": "Rehana Kausar",
+        "contactPhone": "0300-0000128",
+        "windowStart": "2026-09-30T08:00:00+05:00",
+        "windowEnd": "2026-09-30T11:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-20",
+    "driverId": "D-20",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24146-a1",
+        "at": "2026-09-29T08:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-90540."
+      },
+      {
+        "id": "TRP-24146-a2",
+        "at": "2026-09-29T08:50:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-120 · Hino 22 ft and driver Imtiaz Virk."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T08:30:00+05:00",
+    "updatedAt": "2026-09-29T08:50:00+05:00"
+  },
+  {
+    "id": "TRP-24147",
+    "reference": "PO-55190",
+    "status": "scheduled",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Insulin and vaccines",
+      "weightKg": 4000,
+      "pallets": 10,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Kestrel Pharma — Korangi plant",
+        "address": "Plot 44, Sector 15, Korangi Industrial Area, Karachi",
+        "contactName": "Amna Tahir",
+        "contactPhone": "0300-0000118",
+        "windowStart": "2026-09-30T05:00:00+05:00",
+        "windowEnd": "2026-09-30T06:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Kestrel Pharma — Hyderabad depot",
+        "address": "SITE Area, Hyderabad",
+        "contactName": "Sobia Rehman",
+        "contactPhone": "0300-0000122",
+        "windowStart": "2026-09-30T09:00:00+05:00",
+        "windowEnd": "2026-09-30T10:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-37",
+    "driverId": "D-15",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24147-a1",
+        "at": "2026-09-29T08:45:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55190."
+      },
+      {
+        "id": "TRP-24147-a2",
+        "at": "2026-09-29T09:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-137 · Reefer 22 ft and driver Sohail Tiwana."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T08:45:00+05:00",
+    "updatedAt": "2026-09-29T09:05:00+05:00"
+  },
+  {
+    "id": "TRP-24148",
+    "reference": "PO-44905",
+    "status": "scheduled",
+    "clientId": "CL-04",
+    "cargo": {
+      "category": "cement",
+      "description": "Cement, 50 kg bags",
+      "weightKg": 12000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "chakwal",
+        "siteName": "Greyrock Cement — Chakwal plant",
+        "address": "Kallar Kahar Road, Chakwal",
+        "contactName": "Atif Rasheed",
+        "contactPhone": "0300-0000133",
+        "windowStart": "2026-09-30T20:00:00+05:00",
+        "windowEnd": "2026-09-30T22:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Greyrock — Islamabad depot",
+        "address": "Street 12, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Wajid Ali Shah",
+        "contactPhone": "0300-0000137",
+        "windowStart": "2026-10-01T06:00:00+05:00",
+        "windowEnd": "2026-10-01T10:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-18",
+    "driverId": "D-16",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24148-a1",
+        "at": "2026-09-29T09:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-44905."
+      },
+      {
+        "id": "TRP-24148-a2",
+        "at": "2026-09-29T09:25:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-118 · Hino 22 ft and driver Ghulam Abbas Rind."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T09:05:00+05:00",
+    "updatedAt": "2026-09-29T09:25:00+05:00"
+  },
+  {
+    "id": "TRP-24149",
+    "reference": "PO-12177",
+    "status": "scheduled",
+    "clientId": "CL-06",
+    "cargo": {
+      "category": "appliances",
+      "description": "LED TVs and washing machines",
+      "weightKg": 8000,
+      "pallets": null,
+      "tempRangeC": null
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Lantern — Karachi warehouse",
+        "address": "B-41, SITE Area, Karachi",
+        "contactName": "Rizwan Khalil",
+        "contactPhone": "0300-0000143",
+        "windowStart": "2026-09-30T06:00:00+05:00",
+        "windowEnd": "2026-09-30T08:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "lahore",
+        "siteName": "Lantern Home Appliances — Lahore factory",
+        "address": "Plot 70, Sundar Industrial Estate, Lahore",
+        "contactName": "Naila Qamar",
+        "contactPhone": "0300-0000142",
+        "windowStart": "2026-10-01T06:00:00+05:00",
+        "windowEnd": "2026-10-01T12:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-19",
+    "driverId": "D-35",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24149-a1",
+        "at": "2026-09-29T09:35:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-12177."
+      },
+      {
+        "id": "TRP-24149-a2",
+        "at": "2026-09-29T09:55:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-119 · Hino 22 ft and driver Shafiq Mughal."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T09:35:00+05:00",
+    "updatedAt": "2026-09-29T09:55:00+05:00"
+  },
+  {
+    "id": "TRP-24150",
+    "reference": "PO-55201",
+    "status": "scheduled",
+    "clientId": "CL-02",
+    "cargo": {
+      "category": "pharma_chilled",
+      "description": "Eye drops and insulin",
+      "weightKg": 1800,
+      "pallets": 5,
+      "tempRangeC": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "karachi",
+        "siteName": "Kestrel Pharma — Korangi plant",
+        "address": "Plot 44, Sector 15, Korangi Industrial Area, Karachi",
+        "contactName": "Amna Tahir",
+        "contactPhone": "0300-0000118",
+        "windowStart": "2026-09-30T08:00:00+05:00",
+        "windowEnd": "2026-09-30T09:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "hyderabad",
+        "siteName": "Kestrel Pharma — Hyderabad depot",
+        "address": "SITE Area, Hyderabad",
+        "contactName": "Sobia Rehman",
+        "contactPhone": "0300-0000122",
+        "windowStart": "2026-09-30T12:00:00+05:00",
+        "windowEnd": "2026-09-30T13:30:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-31",
+    "driverId": "D-36",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24150-a1",
+        "at": "2026-09-29T10:05:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-55201."
+      },
+      {
+        "id": "TRP-24150-a2",
+        "at": "2026-09-29T10:25:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-131 · Reefer Mazda 16 ft and driver Tanveer Arain."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T10:05:00+05:00",
+    "updatedAt": "2026-09-29T10:25:00+05:00"
+  },
+  {
+    "id": "TRP-24151",
+    "reference": "PO-31955",
+    "status": "scheduled",
+    "clientId": "CL-01",
+    "cargo": {
+      "category": "dairy_chilled",
+      "description": "Cheese and butter, cartons",
+      "weightKg": 6500,
+      "pallets": 15,
+      "tempRangeC": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "stops": [
+      {
+        "id": "S1",
+        "kind": "pickup",
+        "cityId": "lahore",
+        "siteName": "Two Oaks Dairy — Lahore plant",
+        "address": "Plot 12, Sundar Industrial Estate, Raiwind Road, Lahore",
+        "contactName": "Asma Noor",
+        "contactPhone": "0300-0000112",
+        "windowStart": "2026-10-01T04:00:00+05:00",
+        "windowEnd": "2026-10-01T05:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S2",
+        "kind": "drop",
+        "cityId": "islamabad",
+        "siteName": "Two Oaks — Islamabad DC",
+        "address": "Street 7, I-9/2 Industrial Area, Islamabad",
+        "contactName": "Kiran Aslam",
+        "contactPhone": "0300-0000116",
+        "windowStart": "2026-10-01T10:00:00+05:00",
+        "windowEnd": "2026-10-01T12:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      },
+      {
+        "id": "S3",
+        "kind": "drop",
+        "cityId": "peshawar",
+        "siteName": "Two Oaks — Peshawar DC",
+        "address": "Hayatabad Industrial Estate, Peshawar",
+        "contactName": "Shoaib Hassan",
+        "contactPhone": "0300-0000117",
+        "windowStart": "2026-10-01T15:00:00+05:00",
+        "windowEnd": "2026-10-01T17:00:00+05:00",
+        "eta": null,
+        "arrivedAt": null,
+        "departedAt": null
+      }
+    ],
+    "vehicleId": "V-39",
+    "driverId": "D-21",
+    "tracking": null,
+    "temperatureLog": [],
+    "documents": {
+      "consignmentNote": "missing",
+      "pod": "missing"
+    },
+    "handled": [],
+    "activity": [
+      {
+        "id": "TRP-24151-a1",
+        "at": "2026-09-29T10:10:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "created",
+        "message": "Trip created for order PO-31955."
+      },
+      {
+        "id": "TRP-24151-a2",
+        "at": "2026-09-29T10:30:00+05:00",
+        "actor": "Hina Tariq · Dispatch",
+        "kind": "assigned",
+        "message": "Assigned vehicle TRK-139 · Reefer 22 ft and driver Qasim Kakar."
+      }
+    ],
+    "cancelReason": null,
+    "notes": "",
+    "createdAt": "2026-09-29T10:10:00+05:00",
+    "updatedAt": "2026-09-29T10:30:00+05:00"
+  }
+]

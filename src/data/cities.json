@@ -1,0 +1,67 @@
+[
+  {
+    "id": "karachi",
+    "name": "Karachi",
+    "province": "Sindh"
+  },
+  {
+    "id": "hyderabad",
+    "name": "Hyderabad",
+    "province": "Sindh"
+  },
+  {
+    "id": "sukkur",
+    "name": "Sukkur",
+    "province": "Sindh"
+  },
+  {
+    "id": "quetta",
+    "name": "Quetta",
+    "province": "Balochistan"
+  },
+  {
+    "id": "multan",
+    "name": "Multan",
+    "province": "Punjab"
+  },
+  {
+    "id": "faisalabad",
+    "name": "Faisalabad",
+    "province": "Punjab"
+  },
+  {
+    "id": "lahore",
+    "name": "Lahore",
+    "province": "Punjab"
+  },
+  {
+    "id": "gujranwala",
+    "name": "Gujranwala",
+    "province": "Punjab"
+  },
+  {
+    "id": "sialkot",
+    "name": "Sialkot",
+    "province": "Punjab"
+  },
+  {
+    "id": "chakwal",
+    "name": "Chakwal",
+    "province": "Punjab"
+  },
+  {
+    "id": "rawalpindi",
+    "name": "Rawalpindi",
+    "province": "Punjab"
+  },
+  {
+    "id": "islamabad",
+    "name": "Islamabad",
+    "province": "Islamabad Capital Territory"
+  },
+  {
+    "id": "peshawar",
+    "name": "Peshawar",
+    "province": "Khyber Pakhtunkhwa"
+  }
+]
