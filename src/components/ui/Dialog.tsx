@@ -28,7 +28,9 @@ export default function Dialog({ open, onClose, title, description, children, fo
       dialog.showModal();
     } else if (!open && dialog.open) {
       dialog.close();
-      opener.current?.focus();
+      // The opener can disappear, e.g. an exception card whose problem the dialog just fixed.
+      if (opener.current?.isConnected) opener.current.focus();
+      else document.getElementById('main')?.focus();
     }
   }, [open]);
 
