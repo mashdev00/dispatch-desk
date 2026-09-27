@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getClient, getDriver, getVehicle, stopLabel } from '@/lib/lookups';
 import { formatDateTime, formatRelative, formatTime, formatWindow } from '@/lib/time';
 import { getDraftSummary, type TableRow } from '@/lib/trips';
+import SeverityBadge from '@/components/ui/SeverityBadge';
 import styles from './TripsTable.module.css';
 
 /** Shared cell content for the table and the phone cards. */
@@ -73,5 +74,27 @@ export function Updated({ row }: { row: TableRow }) {
     <time dateTime={at} title={formatDateTime(at)}>
       {formatRelative(at)}
     </time>
+  );
+}
+
+export function Attention({ row }: { row: TableRow }) {
+  if (row.kind === 'draft' || !row.worst) return <span className={styles.muted}>—</span>;
+  const [first, ...rest] = row.open;
+  return (
+    <div className={styles.attention}>
+      <SeverityBadge severity={row.worst} />
+      <span className={styles.attentionText}>
+        {first.title}
+        {rest.length > 0 && (
+          <>
+            <span className={styles.more} aria-hidden="true">
+              {' '}
+              +{rest.length} more
+            </span>
+            <span className="visually-hidden">. Also: {rest.map((e) => e.title).join(', ')}</span>
+          </>
+        )}
+      </span>
+    </div>
   );
 }

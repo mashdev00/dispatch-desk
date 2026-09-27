@@ -1,0 +1,25 @@
+.tableTitle {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-xl);
+  scroll-margin-top: calc(var(--header-h) + var(--space-4));
+}
+
+.tableTitle:focus {
+  outline: none;
+}
+
+.sortLine {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-3);
+  min-height: var(--control-h-sm);
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.kpiNote {
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+}

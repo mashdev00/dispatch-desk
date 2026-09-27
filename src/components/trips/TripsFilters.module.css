@@ -32,6 +32,11 @@
   flex: 0 1 240px;
 }
 
+.attention {
+  align-self: center;
+  margin-top: var(--space-6);
+}
+
 .bottomRow {
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +104,10 @@
   .client {
     flex-basis: 100%;
     max-width: none;
+  }
+
+  .attention {
+    margin-top: 0;
   }
 }
 

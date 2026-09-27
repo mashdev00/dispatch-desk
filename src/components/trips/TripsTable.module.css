@@ -23,6 +23,36 @@
   display: block;
 }
 
+.cellAttention {
+  min-width: 200px;
+}
+
+.attention {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.attentionText {
+  font-size: var(--text-xs);
+  color: var(--color-text);
+}
+
+.more {
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* D2: a critical problem gets a 3px red edge, on top of the badge's icon and word. */
+.criticalRow td:first-child {
+  box-shadow: inset 3px 0 0 var(--tone-critical-fg);
+}
+
+.criticalCard {
+  box-shadow: inset 3px 0 0 var(--tone-critical-fg);
+}
+
 .cellUpdated {
   white-space: nowrap;
   color: var(--color-text-muted);

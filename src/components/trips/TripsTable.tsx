@@ -9,10 +9,10 @@ import SortHeader, { type SortDirection } from '@/components/ui/SortHeader';
 import StatusBadge from '@/components/ui/StatusBadge';
 import { cx } from '@/components/ui/cx';
 import tableStyles from '@/components/ui/Table.module.css';
-import { NextStop, TripLink, Updated, VehicleDriver, rowClient, rowRoute } from './tripCells';
+import { Attention, NextStop, TripLink, Updated, VehicleDriver, rowClient, rowRoute } from './tripCells';
 import styles from './TripsTable.module.css';
 
-export type SortColumn = 'id' | 'client' | 'deadline' | 'updated';
+export type SortColumn = 'urgency' | 'id' | 'client' | 'deadline' | 'updated';
 
 type TripsTableProps = {
   rows: TableRow[];
@@ -47,6 +47,7 @@ export default function TripsTable({ rows, loading, directionFor, onSort, onRese
             <tr>
               <SortHeader label="Trip" direction={directionFor('id')} onSort={() => onSort('id')} />
               <th scope="col">Status</th>
+              <th scope="col">Attention</th>
               <SortHeader label="Client" direction={directionFor('client')} onSort={() => onSort('client')} />
               <th scope="col">Route</th>
               <SortHeader label="Next stop" direction={directionFor('deadline')} onSort={() => onSort('deadline')} />
@@ -65,20 +66,23 @@ export default function TripsTable({ rows, loading, directionFor, onSort, onRese
             {loading
               ? Array.from({ length: SKELETON_ROWS }, (_, i) => (
                   <tr key={i}>
-                    {[70, 80, 110, 140, 160, 90, 60].map((width, j) => (
-                      <td key={j} className={j >= 5 ? styles.wideOnly : undefined}>
+                    {[70, 80, 150, 110, 140, 160, 90, 60].map((width, j) => (
+                      <td key={j} className={j >= 6 ? styles.wideOnly : undefined}>
                         <Skeleton width={width} height={14} />
                       </td>
                     ))}
                   </tr>
                 ))
               : rows.map((row) => (
-                  <tr key={row.id}>
+                  <tr key={row.id} className={cx(row.kind === 'trip' && row.worst === 'critical' && styles.criticalRow)}>
                     <td className={styles.cellTrip}>
                       <TripLink row={row} />
                     </td>
                     <td>
                       <StatusBadge status={row.status} />
+                    </td>
+                    <td className={styles.cellAttention}>
+                      <Attention row={row} />
                     </td>
                     <td>{rowClient(row)}</td>
                     <td>{rowRoute(row)}</td>
@@ -107,13 +111,14 @@ export default function TripsTable({ rows, loading, directionFor, onSort, onRese
               </li>
             ))
           : rows.map((row) => (
-              <li key={row.id} className={styles.card}>
+              <li key={row.id} className={cx(styles.card, row.kind === 'trip' && row.worst === 'critical' && styles.criticalCard)}>
                 <div className={styles.cardHeader}>
                   <div className={styles.cellTrip}>
                     <TripLink row={row} />
                   </div>
                   <StatusBadge status={row.status} />
                 </div>
+                {row.kind === 'trip' && row.worst && <Attention row={row} />}
                 <p className={styles.cardRoute}>{rowRoute(row)}</p>
                 <p className={styles.secondary}>{rowClient(row)}</p>
                 <div className={styles.cardNext}>

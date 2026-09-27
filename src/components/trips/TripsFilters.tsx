@@ -6,6 +6,7 @@ import { STATUSES, STATUS_ORDER } from '@/lib/config';
 import { CLIENTS } from '@/lib/lookups';
 import type { RowStatus } from '@/lib/types';
 import Button from '@/components/ui/Button';
+import CheckboxField from '@/components/ui/CheckboxField';
 import SelectField from '@/components/ui/SelectField';
 import { cx } from '@/components/ui/cx';
 import fieldStyles from '@/components/ui/Field.module.css';
@@ -19,6 +20,10 @@ type TripsFiltersProps = {
   statusCounts: Record<RowStatus, number>;
   clientId: string;
   onClientChange: (clientId: string) => void;
+  attentionOnly: boolean;
+  onAttentionOnlyChange: (value: boolean) => void;
+  /** Extra filters set elsewhere (the KPI strip) that Reset also clears. */
+  otherActive: boolean;
   onReset: () => void;
   /** null while saved data is loading. */
   shown: number | null;
@@ -37,12 +42,15 @@ export default function TripsFilters({
   statusCounts,
   clientId,
   onClientChange,
+  attentionOnly,
+  onAttentionOnlyChange,
+  otherActive,
   onReset,
   shown,
   total,
 }: TripsFiltersProps) {
   const searchId = useId();
-  const active = query.trim() !== '' || statuses.size > 0 || clientId !== '';
+  const active = query.trim() !== '' || statuses.size > 0 || clientId !== '' || attentionOnly || otherActive;
 
   return (
     <div className={styles.filters}>
@@ -70,6 +78,12 @@ export default function TripsFilters({
           value={clientId}
           onChange={(event) => onClientChange(event.target.value)}
           className={styles.client}
+        />
+        <CheckboxField
+          label="Needs attention only"
+          checked={attentionOnly}
+          onChange={(event) => onAttentionOnlyChange(event.target.checked)}
+          className={styles.attention}
         />
       </div>
       <div className={styles.bottomRow}>
