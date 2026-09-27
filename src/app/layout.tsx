@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import AppShell from '@/components/layout/AppShell';
+import { ToastProvider } from '@/components/ui/Toast';
 import { APP_NAME } from '@/lib/config';
 import './globals.css';
 
@@ -15,7 +16,9 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="en" className={inter.variable}>
       <body>
-        <AppShell>{children}</AppShell>
+        <ToastProvider>
+          <AppShell>{children}</AppShell>
+        </ToastProvider>
       </body>
     </html>
   );

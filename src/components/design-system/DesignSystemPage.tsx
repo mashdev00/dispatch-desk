@@ -5,6 +5,13 @@ import ButtonsSection from './ButtonsSection';
 import FormControlsSection from './FormControlsSection';
 import { ColourSection, SpacingSection, TypographySection } from './FoundationsSections';
 import { AlertsSection, BadgesSection, CardsSection, LoadingSection, StatCardsSection } from './DisplaySections';
+import {
+  DialogSection,
+  ErrorSummarySection,
+  ExceptionRulesSection,
+  StepperSection,
+  TableSection,
+} from './InteractionSections';
 import styles from './DesignSystemPage.module.css';
 
 const SECTIONS = [
@@ -18,6 +25,11 @@ const SECTIONS = [
   { id: 'cards', label: 'Cards' },
   { id: 'skeleton', label: 'Skeleton' },
   { id: 'stat-cards', label: 'Stat cards' },
+  { id: 'dialog', label: 'Dialog and toast' },
+  { id: 'stepper', label: 'Stepper' },
+  { id: 'error-summary', label: 'Error summary' },
+  { id: 'table', label: 'Table' },
+  { id: 'exception-rules', label: 'Exception rules' },
 ];
 
 export default function DesignSystemPage() {
@@ -47,7 +59,11 @@ export default function DesignSystemPage() {
         <CardsSection />
         <LoadingSection />
         <StatCardsSection />
-        {/* TODO(session 5): Dialog, Toast, Stepper, Error summary, Table, Exception rules */}
+        <DialogSection />
+        <StepperSection />
+        <ErrorSummarySection />
+        <TableSection />
+        <ExceptionRulesSection />
       </div>
     </>
   );

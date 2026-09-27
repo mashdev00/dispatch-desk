@@ -240,3 +240,14 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
   gap: var(--space-3);
 }
+
+.formSample {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: var(--space-5);
+}
+
+.ruleTitle {
+  font-weight: var(--weight-medium);
+  white-space: nowrap;
+}
