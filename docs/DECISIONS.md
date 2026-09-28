@@ -104,18 +104,6 @@ These are the product and design decisions behind Dispatch Desk, and why I made 
 
 ---
 
-## The main design problem (for the README)
+## The main design problem
 
-_To write in my own words: what problem do dispatchers have, and how does this design fix it? 3 to 5 lines._
-
----
-
-## Alternatives I explored with AI (fill in after Session 8)
-
-_To write after picking a trip review layout._
-
----
-
-## What I changed after testing (fill in after Session 13)
-
-_To write after the usability test._
+A dispatcher watches dozens of trips at once and is interrupted all day. In a normal trips table they have to scan every row to find the few that need them. Their first question is "what needs me right now?", so the board answers that first: the trips that need a decision are at the top, each problem says in plain words what's wrong, and the fix sits right next to it.
